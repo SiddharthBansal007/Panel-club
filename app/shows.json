@@ -4,141 +4,1368 @@
     "host": "Samay Raina",
     "episodes": [
       {
-        "title": "INDIA'S GOT LATENT S2 EP1 ft. Alia Bhatt, Sharvari, Ashish Solanki",
+        "title": "INDIA’S GOT LATENT S2 EP1 ft. Alia Bhatt, Sharvari, Ashish Solanki",
         "videoId": "eHTXQW58WhA",
-        "thumbnail": "https://i.ytimg.com/vi/eHTXQW58WhA/hqdefault.jpg",
-        "source": "https://www.youtube.com/watch?v=eHTXQW58WhA"
+        "guest": "",
+        "duration": 3561
+      },
+      {
+        "title": "INDIA’S GOT LATENT S2 EP2 ft. Harssh Limbachiya, Kiku Sharda, Chandan Prabhakar",
+        "videoId": "c35fpGWqXnk",
+        "guest": "",
+        "duration": 3685
+      },
+      {
+        "title": "INDIA’S GOT LATENT S2 EP3 ft. Raghu Ram, Vishal Dadlani, Tanmay Bhat, Yashraj",
+        "videoId": "aSR1tndcaLE",
+        "guest": "",
+        "duration": 3224
+      },
+      {
+        "title": "INDIA’S GOT LATENT S2 Bonus EP1 ft. Raghav Juyal, Munawar, Niharika NM, Rohan Joshi",
+        "videoId": "q8amKPDt_iY",
+        "guest": "",
+        "duration": 3434
+      },
+      {
+        "title": "INDIA’S GOT LATENT S2 EP4 ft. Karan Aujla, Tanmay Bhat, Gurleen Pannu, Rahul Dua",
+        "videoId": "B6NVvtIz9_Q",
+        "guest": "",
+        "duration": 3234
+      },
+      {
+        "title": "INDIA’S GOT LATENT S2 Bonus EP2 ft. Badshah, Sourav Joshi, Harssh Limbachiyaa, Rajat Sood",
+        "videoId": "otawyZaOxvs",
+        "guest": "",
+        "duration": 2400
+      },
+      {
+        "title": "INDIA’S GOT LATENT S2 EP5 ft. Orry, Archana Puran Singh, Sharon Verma, Nishant Suri",
+        "videoId": "VJ9VC9OqdAA",
+        "guest": "",
+        "duration": 3238
+      },
+      {
+        "title": "INDIA’S GOT LATENT S2 EP6 ft. Rakhi Sawant, Ashneer Grover, Kushagra Srivastava",
+        "videoId": "zbIr24Tes7E",
+        "guest": "",
+        "duration": 3146
+      },
+      {
+        "title": "INDIA’S GOT LATENT S2 Bonus EP 3 ft. Deepak Kalal, Ravi Gupta, Agu Stanley",
+        "videoId": "fzyL44FH2fI",
+        "guest": "",
+        "duration": 2067
+      },
+      {
+        "title": "INDIA’S GOT LATENT S2 EP7 ft. Nawazuddin Siddiqui, Bhuvan Bam, Mukesh Chhabra, Kaustubh Agarwal",
+        "videoId": "rkKZIMPecRA",
+        "guest": "",
+        "duration": 3207
       }
     ],
     "category": "Panel shows",
-    "guest": "",
-    "description": ""
+    "description": "",
+    "coverVideoId": "eHTXQW58WhA",
+    "sourceUrl": "https://www.youtube.com/@SamayRainaOfficial/videos",
+    "checkedAt": "21 Sep 2026",
+    "availabilityNote": "Season 1 is no longer public on the official channel. The cover is Season 2, Episode 1."
   },
   {
     "name": "Pretty Good Roast Show",
     "host": "Aashish Solanki",
     "episodes": [
       {
-        "title": "Pretty Good Roast Show · Season 1, Episode 1",
-        "videoId": "U-SuiWkRAlo"
+        "title": "Pretty Good Roast Show: S1. EP 1/7 | Ft. @AakashGupta",
+        "videoId": "U-SuiWkRAlo",
+        "guest": "",
+        "duration": 3318
       },
       {
-        "title": "Pretty Good Roast Show · Season 1, Episode 6",
-        "videoId": "hu1FI8Ej0MM"
+        "title": "Pretty Good Roast Show S1. EP 2/7 | Ft. @AnubhavSinghBassi",
+        "videoId": "7xNHz6lwxYs",
+        "guest": "",
+        "duration": 3671
+      },
+      {
+        "title": "Pretty Good Roast Show S1. EP 3/7 | Ft. Huma Qureshi",
+        "videoId": "2BFBAS_pqVE",
+        "guest": "",
+        "duration": 2849
+      },
+      {
+        "title": "Pretty Good Roast Show S1. EP 4/7 | Ft. @FlyingBeast320",
+        "videoId": "zBpv4aNsBW4",
+        "guest": "",
+        "duration": 2836
+      },
+      {
+        "title": "Pretty Good Roast Show S1. EP 6/7 | Ft. @Harshgujral",
+        "videoId": "hu1FI8Ej0MM",
+        "guest": "",
+        "duration": 2815
+      },
+      {
+        "title": "Pretty Good Roast Show S1. EP 7/7 | Ft. @kushakapila5643",
+        "videoId": "KsEoGDgKdwQ",
+        "guest": "",
+        "duration": 3465
       }
     ],
     "category": "Roasts",
-    "guest": "",
-    "description": ""
+    "description": "",
+    "coverVideoId": "U-SuiWkRAlo",
+    "sourceUrl": "https://www.youtube.com/playlist?list=PLFcSwHXxax7zjumzGWwvSUoMv6H8FNZtO",
+    "checkedAt": "21 Sep 2026",
+    "availabilityNote": "Season 1, Episode 5 is unavailable on the official channel."
   },
   {
     "name": "Relationshit Advice",
     "host": "Raunaq Rajani",
     "episodes": [
       {
-        "title": "RelationShit Advice · Episode 1",
-        "videoId": "PAweiRjZl0A"
+        "title": "RelationShit Advice Ep 1 | ft. Rahul Dua, Kaneez Surka & Shantanu Anam",
+        "videoId": "PAweiRjZl0A",
+        "guest": "",
+        "duration": 364
+      },
+      {
+        "title": "RelationShit Advice Ep2 | Ft. Rahul Subramanian, Shreeja Chaturvedi & Sushant Divgikar",
+        "videoId": "judHNgfkFAM",
+        "guest": "",
+        "duration": 407
+      },
+      {
+        "title": "RelationShit Advice Ep3 | ft Urooj Ashfaq, Neville Shah & Kunal Rao (FULL LENGTH)",
+        "videoId": "TNTE9DYMKxQ",
+        "guest": "",
+        "duration": 2244
+      },
+      {
+        "title": "RelationShit Advice Ep4 | Ft. Angad Singh Ranyal, Punya Arora & Deep Chhabria (FULL LENGTH)",
+        "videoId": "DAMxa3YQ7XU",
+        "guest": "",
+        "duration": 1706
+      },
+      {
+        "title": "RelationShit Advice Ep5 | ft. Sapan Verma, Kumar Varun & Niveditha Prakasam",
+        "videoId": "2skQ92P7Eo8",
+        "guest": "",
+        "duration": 1768
+      },
+      {
+        "title": "RelationShit Advice Ep6 | Ft. Sumukhi Suresh, Anirban Dasgupta & Mikhail Almeida",
+        "videoId": "52-z30x458Y",
+        "guest": "",
+        "duration": 2012
+      },
+      {
+        "title": "RelationShit Advice S2Ep1 | Ft. Sumukhi Suresh, Aishwarya Mohanraj & Kunal Rao",
+        "videoId": "HHrT1Ca2-6s",
+        "guest": "",
+        "duration": 1115
+      },
+      {
+        "title": "RelationSh!t Advice S2Ep2 | Ft Urooj Ashfaq, Srishti Dixit & Atul Khatri",
+        "videoId": "M6Ezi9-qGFw",
+        "guest": "",
+        "duration": 1984
+      },
+      {
+        "title": "RelationSh!t Advice S2Ep3 | Ft. Abish Mathew, Viraj Ghelani & Azeem Banatwala",
+        "videoId": "xNg6qqgm9ZQ",
+        "guest": "",
+        "duration": 1933
+      },
+      {
+        "title": "RelationShit Advice Ft. Khamba, Karunesh and Aishwarya Mohanraj | S02Ep4",
+        "videoId": "o6nf61FL658",
+        "guest": "",
+        "duration": 1615
+      },
+      {
+        "title": "RelationShit Advice ft. Kusha Kapila, Amit Tandon & Aadar Malik | S02Ep5",
+        "videoId": "wcXqyEGudBw",
+        "guest": "",
+        "duration": 2071
+      },
+      {
+        "title": "RelationShit Advice ft. Tanmay, Sahil & Surbhi | S02Ep6",
+        "videoId": "ZuQLS6lQbWI",
+        "guest": "",
+        "duration": 2265
+      },
+      {
+        "title": "RelationShit Advice ft. Punya, Angad & Deep | PUNYA 2020 RETURNS | S02Ep7",
+        "videoId": "kCVP1umluVI",
+        "guest": "",
+        "duration": 2366
+      },
+      {
+        "title": "RelationSH!T Advice Ft. Aakash Mehta, Shreeja & Sonali Thakker",
+        "videoId": "YPdLM4NV5L4",
+        "guest": "",
+        "duration": 2602
+      },
+      {
+        "title": "RelationSH!T Advice ft. Ramya, Neville & Shridhar V | S02Ep09",
+        "videoId": "jhsD9omG8UE",
+        "guest": "",
+        "duration": 2266
+      },
+      {
+        "title": "RelationSh!t Advice Ft. Biswa, Akaash Singh & Mallika Dua",
+        "videoId": "X1eFjcIrilU",
+        "guest": "",
+        "duration": 1814
+      },
+      {
+        "title": "RelationShit Advice Ft. @ShreejaChaturvedi @SumairaShaikh @siddharthdudeja | S3 Ep 1",
+        "videoId": "SWqMKMssrXs",
+        "guest": "",
+        "duration": 1505
+      },
+      {
+        "title": "RelationShit Advice ft @thebanat @KautukSrivastavaIsHere & Pavitra Shetty",
+        "videoId": "-eYJV5g2sg8",
+        "guest": "",
+        "duration": 2924
+      },
+      {
+        "title": "RelationSh!t Advice ft. @KuchBhiMehta @ThatsSoViraj & @sonalithakkercomedy | S3Ep3",
+        "videoId": "rNhB33cyRsg",
+        "guest": "",
+        "duration": 1637
+      },
+      {
+        "title": "RelationSh!t Advice ft. @RahulSubramanianUnofficial @jeeyadhadkdhadk @MikhailAlmeida",
+        "videoId": "ZWIpScBqIko",
+        "guest": "",
+        "duration": 1609
+      },
+      {
+        "title": "RelationSh!t Advice ft. @sakshi_shivdasani @SurbhiBagga @Officiallysane | S3Ep5",
+        "videoId": "YeDRpRoRSbQ",
+        "guest": "",
+        "duration": 1791
+      },
+      {
+        "title": "RelationSh!t Advice ft. @SuhaniShah @ShreejaChaturvedi @KautukSrivastavaIsHere | S4Ep1",
+        "videoId": "9chyI1eXX64",
+        "guest": "",
+        "duration": 2220
+      },
+      {
+        "title": "RelationShi!t Advice Ft. @uroojashfaq9701 @ShashwatMaheshwari & Aakash Shah",
+        "videoId": "3bbhne11QbE",
+        "guest": "",
+        "duration": 1904
+      },
+      {
+        "title": "RelationShit Advice Ft. Ahsaas Channa @thebanat @NavinNoronha",
+        "videoId": "Y62PYAfsq9o",
+        "guest": "",
+        "duration": 2375
+      },
+      {
+        "title": "RelationSh!t Advice Ft. @PrashastiSinghStandup @neville_shah & Urjita Wani | S4ep4",
+        "videoId": "si71T1FJry4",
+        "guest": "",
+        "duration": 1702
+      },
+      {
+        "title": "RelationSh!t Advice Ft. @GursimranKhamba @AnirbanDasgupta5 & @pavitrashettycomedy",
+        "videoId": "OUYO5O9tNIk",
+        "guest": "",
+        "duration": 2227
+      },
+      {
+        "title": "RelationSh!t Advice ft @beerbiceps @SurbhiBagga & @ExDeeAnas",
+        "videoId": "OwLv79NwvxE",
+        "guest": "",
+        "duration": 1971
+      },
+      {
+        "title": "RelationSh!t Advice ft @Hoezaay @sejbhat & @KunalRao |Season4 Ep7",
+        "videoId": "zSqH4vsHBA0",
+        "guest": "",
+        "duration": 2411
+      },
+      {
+        "title": "THE WORST THREEWAY STORY | RelationSh!t Advice ft.@VarunThakurOfficial@uroojashfaq9701@NavinNoronha",
+        "videoId": "Sg9uJ1mYQ6E",
+        "guest": "",
+        "duration": 952
+      },
+      {
+        "title": "Wildest EuroTrip stories| RelationSh!t Advice ft @VarunThakurOfficial @uroojashfaq9701 @NavinNoronha",
+        "videoId": "NDNg0uUBvC0",
+        "guest": "",
+        "duration": 935
+      },
+      {
+        "title": "Neurologist Solves weird s*x problems| RelationSh!t Advice @SumukhiSuresh @Sidwarrier@Agovindmenon",
+        "videoId": "kIULZM7-kqQ",
+        "guest": "",
+        "duration": 2128
+      },
+      {
+        "title": "How to Ghost your girlfriend | RelationSh!t AdviceBONUS ft @SumukhiSuresh @Sidwarrier @Agovindmenon",
+        "videoId": "IyxhriD6M2U",
+        "guest": "",
+        "duration": 758
+      },
+      {
+        "title": "Front Row couple reveals secrets| RelationSh!t Advice ft @jeeyadhadkdhadk @JoelDsouza@shreyapriyam83",
+        "videoId": "n4Yts422ZYE",
+        "guest": "",
+        "duration": 1855
+      },
+      {
+        "title": "HOW (NOT) TO MEET GIRLS |RelationSh!t advice ft.@ThePrakharGuptaXperience@kaneezsurka007 @TheAshishShakya",
+        "videoId": "buEY7be-iF4",
+        "guest": "",
+        "duration": 1890
+      },
+      {
+        "title": "33 Y/O Virgin |RelationSh!t Advice ft @SushantDivgikarRaniKohenur @AtulKhatriComedian Pavitra Shetty",
+        "videoId": "xaepgoon_c8",
+        "guest": "",
+        "duration": 1987
+      },
+      {
+        "title": "Can you party with your ex?| RelationSh!tAdvice ft@SahilShahcomedy @AditiMittalYT @shamikchakrabarti",
+        "videoId": "eaJFYo_8CFM",
+        "guest": "",
+        "duration": 1707
+      },
+      {
+        "title": "Ghatiya engagement ring | RelationSh!t Advice ft @Aadar @urjitawani. & @madhvens",
+        "videoId": "IYY8UzETjYA",
+        "guest": "",
+        "duration": 1293
+      },
+      {
+        "title": "The Biggest Playa in Bareilly| RelationSh!t Advice ft @sapanv @kaneezsurka007 @shaadshafi",
+        "videoId": "ZWXL5Fqav9A",
+        "guest": "",
+        "duration": 1431
+      },
+      {
+        "title": "BONUS EP: Her boyfriend couldn't SCORE! ft. @sapanv @kaneezsurka007 & @shaadshafi",
+        "videoId": "YRe8gIzivPo",
+        "guest": "",
+        "duration": 936
+      },
+      {
+        "title": "SPORTS FANS ARE CRAZY! RelationSh!t Advice ft. @ChiragPanjwani @ExDeeAnas and Masoom Rajwani",
+        "videoId": "m-qnBdqoJXc",
+        "guest": "",
+        "duration": 1553
+      },
+      {
+        "title": "PR£GNANCY SCARE IN A THREES0ME | RelationSh!t Advice Ft.@Hoezaay @angadsinghranyal & @aishaahmed4615",
+        "videoId": "98WHfgS5X_I",
+        "guest": "",
+        "duration": 1805
+      },
+      {
+        "title": "HOW (NOT) TO SLIDE INTO DM's | ft. Renil Abraham, Cyrus Broacha and @SurbhiBagga",
+        "videoId": "W9ZqWkS7-4U",
+        "guest": "",
+        "duration": 1657
+      },
+      {
+        "title": "SHE REVEALED VERIFIED CELEB SECRETS! | RelationSh!t Advice ft @avantinagral @KunalRao @Agovindmenon",
+        "videoId": "9lXlXOc5lYM",
+        "guest": "",
+        "duration": 1734
+      },
+      {
+        "title": "Who's the REAL red flag?! | Ft. @abish @ShreejaChaturvedi@vaibhavsethiacomedian| RelationSh!t Advice",
+        "videoId": "8TZWxa2phMY",
+        "guest": "",
+        "duration": 2177
+      },
+      {
+        "title": "WEIRDEST DATE IDEA | RelationSh!t Advice ft. @sahibabalii @deepchhabria1 @sapanv",
+        "videoId": "M8XVJw78pOM",
+        "guest": "",
+        "duration": 1639
+      },
+      {
+        "title": "Does your ex's opinion matter? | RelationSh!t Advice ft @SuhaniShah @sejbhat @neville_shah",
+        "videoId": "Tb-Rdr0oq6k",
+        "guest": "",
+        "duration": 1781
+      },
+      {
+        "title": "BIS€XUAL vs. STRAIGHT | RelationSh!t Advice ft. @thebanat @shaadshafi @sluttysavitree",
+        "videoId": "dwTaN8isJK0",
+        "guest": "",
+        "duration": 1773
+      },
+      {
+        "title": "Is Patriarchy funny? | RelationSh!t Advice ft. Vidya Balan, @SumukhiSuresh & @pavitrashettycomedy",
+        "videoId": "g6NvdwocYwA",
+        "guest": "",
+        "duration": 2181
+      },
+      {
+        "title": "Jealous BF's are hot?! |RelationSh!t Advice ft @Kullubaazi @sakshi_shivdasani @shamikchakrabarti",
+        "videoId": "r_T7ALGZ1YM",
+        "guest": "",
+        "duration": 1869
+      },
+      {
+        "title": "TOX!C GIRLS GROUP | RelationSh!t Advice ft. Dhruv Sehgal, @SumairaShaikh & @KautukSrivastavaIsHere",
+        "videoId": "AdPTbtdnmtw",
+        "guest": "",
+        "duration": 1328
+      },
+      {
+        "title": "MURD€R MYSTERY GANG | RelationSh!t Advice Ft Imran Khan, @ShreejaChaturvedi, @KautukSrivastavaIsHere",
+        "videoId": "sJtakyR0Du0",
+        "guest": "",
+        "duration": 2779
+      },
+      {
+        "title": "LIARS NEVER GET CAUGHT!! | RelationSh!t Advice ft. @rohanjoshi8016 @SurbhiBagga @vrindabhagchandani",
+        "videoId": "ykq4ZdqbqZ0",
+        "guest": "",
+        "duration": 1383
+      },
+      {
+        "title": "How to get invited for these? | RelationSh!tAdvice ft @TandonAmit @Sidwarrier @pavitrashettycomedy",
+        "videoId": "ebYnBHFefIM",
+        "guest": "",
+        "duration": 1795
+      },
+      {
+        "title": "Boys locker room (not) | RelationSh!t Advice ft @NirmalPillaiOriginal@KuchBhiMehta & @MikhailAlmeida",
+        "videoId": "dMd8BnbhUso",
+        "guest": "",
+        "duration": 1797
+      },
+      {
+        "title": "WORST WAY TO MEET HER PARENTS! | RelationSh!t Advice ft. @Hoezaay @pantonfire @nivprakasam",
+        "videoId": "d0XUt5ya-EQ",
+        "guest": "",
+        "duration": 2625
+      },
+      {
+        "title": "HE'S A HOUSE HUSBAND?! | RelationSh!t Advice ft. Sahiba Bali, Kumar Varun & Aman Jotwani.",
+        "videoId": "N9NQzDDKsKE",
+        "guest": "",
+        "duration": 1474
+      },
+      {
+        "title": "DON'T FOLLOW YOUR PASSION! | RelationSh!t Advice ft. @Hoezaay , @sapanv & @SumairaShaikh",
+        "videoId": "9AgTo5R1VEk",
+        "guest": "",
+        "duration": 2037
+      },
+      {
+        "title": "ROASTED BY FABULOUS WIFE | ft. Maheep Kapoor, @Hoezaay & @deepchhabria1 | RelationSh!t Advice",
+        "videoId": "m_oEybTEu2s",
+        "guest": "",
+        "duration": 1818
+      },
+      {
+        "title": "HARVARD college P€RV$ | RelationSh!t Advice ft. @avantinagral @sapanv @shamikchakrabarti",
+        "videoId": "EYCgw2kjDhw",
+        "guest": "",
+        "duration": 2119
+      },
+      {
+        "title": "MEN ARE HELPLESS? ft. Richa Chadha, Ali Fazal, Prashasti & Shaad | RelationSh!t Advice",
+        "videoId": "Wi7EI-ez-Hk",
+        "guest": "",
+        "duration": 2036
+      },
+      {
+        "title": "GYM AUNTIES BE CRAZY | RelationSh!t Advice ft. Ahsaas Channa @VarunThakurOfficial @AnirbanDasgupta5",
+        "videoId": "EiFbS3W9TMY",
+        "guest": "",
+        "duration": 1819
+      },
+      {
+        "title": "GHOSTED BY DAD?! | RelationSh!t Advice ft. Kareema Barry, @ChiragPanjwani & @masoom_rajwani",
+        "videoId": "lnVRInmYpZg",
+        "guest": "",
+        "duration": 1693
+      },
+      {
+        "title": "WHY DO MEN LACK EMPATHY?! | RelationSh!t Advice ft. @GursimranKhamba @thebanat &@PunyaArora",
+        "videoId": "iLuQBr1nfGo",
+        "guest": "",
+        "duration": 3368
+      },
+      {
+        "title": "Rakshabandhan valentine | RelationSh!t Advice ft @AtulKhatriComedian @SumukhiSuresh @siddharthdudeja",
+        "videoId": "vvUv4jH31LA",
+        "guest": "",
+        "duration": 2552
+      },
+      {
+        "title": "Was it worth ₹8000?! | RelationSh!t Advice ft. @pannugurleen, @JoelDsouza, @gauthamgovindan",
+        "videoId": "XpS1A2ekNTE",
+        "guest": "",
+        "duration": 1919
+      },
+      {
+        "title": "This generation is crazy! | RelationSh!t Advice ft @GursimranKhamba @sejbhat Neville Bharucha",
+        "videoId": "rvnetvGStIw",
+        "guest": "",
+        "duration": 1411
+      },
+      {
+        "title": "The family got involved?! | RelationSh!t Advice ft@sakshi_shivdasani@Theabishekkumar@MikhailAlmeida",
+        "videoId": "qshY10sVNfk",
+        "guest": "",
+        "duration": 1921
+      },
+      {
+        "title": "God’s favourite 23-year old | RelationSh!t Advice ft @Kullubaazi, Erika Packard, @agstandup",
+        "videoId": "xSwhl18bcmk",
+        "guest": "",
+        "duration": 1666
+      },
+      {
+        "title": "Non-Veg Jokes | RelationSh!t Advice ft @Aadar @sapanv @ShreejaChaturvedi",
+        "videoId": "DTl7ESkoRQU",
+        "guest": "",
+        "duration": 1818
+      },
+      {
+        "title": "The most Unhinged chef | RelationSh!t Advice ft Rajkummar Rao, @sonofabish, @uroojashfaq9701",
+        "videoId": "LwQqsmxgWsU",
+        "guest": "",
+        "duration": 2305
+      },
+      {
+        "title": "Who got played?? | RelationSh!t Advice ft The Cast of Kankhajura",
+        "videoId": "U1OXPd2xmU4",
+        "guest": "",
+        "duration": 949
+      },
+      {
+        "title": "Do women make sacrifices? | RelationSh!t Advice ft. @Hoezaay @AnirbanDasgupta5 @NavinNoronha",
+        "videoId": "CXZFKOBt1Co",
+        "guest": "",
+        "duration": 1495
+      },
+      {
+        "title": "His longest relationship | RelationSh!t Advice ft. Bunshah @gauthamgovindan @jeeyadhadkdhadk",
+        "videoId": "rbHqKBx-DIA",
+        "guest": "",
+        "duration": 1898
+      },
+      {
+        "title": "Mercury in retrograde | RelationSh!t Advice ft @the.rebelkid @GauravKapoor @thebanat",
+        "videoId": "SbQCM1usZro",
+        "guest": "",
+        "duration": 2166
+      },
+      {
+        "title": "Crying in Botox | RelationSh!t Advice ft. @nainabeee @AtulKhatriComedian @shamikchakrabarti",
+        "videoId": "fWMoWM1bYX0",
+        "guest": "",
+        "duration": 2324
+      },
+      {
+        "title": "Live love confession | RelationSh!t Advice ft@sakshi_shivdasani @GursimranKhamba@pavitrashettycomedy",
+        "videoId": "bFEI-b2E1C0",
+        "guest": "",
+        "duration": 2915
+      },
+      {
+        "title": "First gaslighting experience | RelationSh!t Advice ft @Hoezaay @sakshi_shivdasani @gauthamgovindan",
+        "videoId": "bnJxAedMbEw",
+        "guest": "",
+        "duration": 2808
+      },
+      {
+        "title": "Treasure Hunt Fail | RelationSh!t Advice ft @VarunGroverComedy@shreyapriyam83@KautukSrivastavaIsHere",
+        "videoId": "hoPfdgsp50I",
+        "guest": "",
+        "duration": 2257
+      },
+      {
+        "title": "HOW IS THIS AN INSULT? | RelationSh!t Advice ft @VishnuKaushal @pantonfire @sakshi_shivdasani",
+        "videoId": "7BI1zrulgd0",
+        "guest": "",
+        "duration": 2337
+      },
+      {
+        "title": "Power of US Passport | RelationSh!t Advice ft @ZarnaGarg",
+        "videoId": "HN0-CKnxAwE",
+        "guest": "",
+        "duration": 3249
+      },
+      {
+        "title": "How to be a Rebound | RelationSh!t Advice ft @rohanjoshi8016 @KaranSinghMagic @SumairaShaikh",
+        "videoId": "5CWzfoJVnxs",
+        "guest": "",
+        "duration": 2460
+      },
+      {
+        "title": "Brutally Honest BF?! | RelationSh!t Advice ft.@ShreejaChaturvedi@masoom_rajwani @VarunThakurOfficial",
+        "videoId": "XAAcKe6Yoa4",
+        "guest": "",
+        "duration": 2683
+      },
+      {
+        "title": "THE BEST RELATIONSHIP ADVICE EVER | Stand up comedy special by Raunaq Rajani | Manchild pt (3/3)",
+        "videoId": "pxIgEICezKE",
+        "guest": "",
+        "duration": 952
+      },
+      {
+        "title": "She’s allergic to him?! | RelationSh!t Advice ft. @uroojashfaq9701 @ShreejaChaturvedi @aishmrj",
+        "videoId": "y3cycNR5nmY",
+        "guest": "",
+        "duration": 2572
+      },
+      {
+        "title": "The Bangkok Watch | RelationSh!t Advice ft. @KennySebastian @pantonfire @siddyshetty",
+        "videoId": "Z_H2Jw-GLfM",
+        "guest": "",
+        "duration": 2770
+      },
+      {
+        "title": "My Wife's Lover | RelationSh!t Advice ft. @ashishsolanki_1 @ahsaaschannaofficial @Aadar",
+        "videoId": "vNwVmJaV9ls",
+        "guest": "",
+        "duration": 2335
+      },
+      {
+        "title": "Why did he call back?! | RelationSh!t Advice ft.@masoom_rajwani @pavitrashettycomedy@SumairaShaikh",
+        "videoId": "RfZ6c4dhMZE",
+        "guest": "",
+        "duration": 2681
+      },
+      {
+        "title": "When Men Get Empowered | RelationSh!t Advice ft. @sakshi_shivdasani @shamikchakrabarti @sejbhat",
+        "videoId": "wnTeak6J7Zs",
+        "guest": "",
+        "duration": 2976
+      },
+      {
+        "title": "Would you dump?? | RelationSh!t Advice ft @pannugurleen @Hoezaay @AnirbanDasgupta5",
+        "videoId": "SeRxbo9Z9vw",
+        "guest": "",
+        "duration": 2246
+      },
+      {
+        "title": "Rich People Problems | RelationSh!t Advice ft. @virdas @aishmrj @KareemaBarry27",
+        "videoId": "MqPFFK5l_Zo",
+        "guest": "",
+        "duration": 2411
+      },
+      {
+        "title": "He got caught?! | RelationSh!t Advice ft @NirmalPillaiOriginal @VarunThakurOfficial, Srishti Dixit",
+        "videoId": "TPJ4oNCxcmE",
+        "guest": "",
+        "duration": 2201
+      },
+      {
+        "title": "Why did she shame him? | RelationSh!t Advice ft @KaruneshTalwar @masoom_rajwani @KareemaBarry27",
+        "videoId": "3Vfe5t6OhUY",
+        "guest": "",
+        "duration": 2900
+      },
+      {
+        "title": "Am I a joke to her? | RelationSh!t Advice ft. @sapanv @SumukhiSuresh @gauthamgovindan",
+        "videoId": "GjN_z-HkAUw",
+        "guest": "",
+        "duration": 2027
+      },
+      {
+        "title": "JACKPOT! | RelationSh!t Advice ft. Shanaya Kapoor, Adarsh Gourav, @ShreejaChaturvedi @siddyshetty",
+        "videoId": "VXjDB5p8O5A",
+        "guest": "",
+        "duration": 3068
+      },
+      {
+        "title": "Insecure of Hrithik?! | RelationSh!t Advice ft. Siddhant Chaturvedi , Mrunal Thakur, Pavie & Govind",
+        "videoId": "IJ7DkVmtZNM",
+        "guest": "",
+        "duration": 2527
+      },
+      {
+        "title": "How simp losers get ahead | RelationSh!t Advice ft @sahibabalii @AnirbanDasgupta5 @Theabishekkumar",
+        "videoId": "XpfBfqGuVUw",
+        "guest": "",
+        "duration": 2048
+      },
+      {
+        "title": "I pissed her off | RelationSh!t Advice ft. @kaneezsurka007 @uroojashfaq9701 @Hoezaay",
+        "videoId": "oiRDEFYMFUw",
+        "guest": "",
+        "duration": 2564
+      },
+      {
+        "title": "I SHOULDN'T have done this!? | RelationSh!t Advice ft. @swatisachdeva95 @madhurvirli @RaghavMandava",
+        "videoId": "joSrramQ9Uw",
+        "guest": "",
+        "duration": 2465
+      },
+      {
+        "title": "DELHI TRIGGERED | RelationSh!t Advice ft. @ChiragPanjwani @dollysinghofficial @NishantSuri11",
+        "videoId": "PxM8BAUVBdw",
+        "guest": "",
+        "duration": 2723
+      },
+      {
+        "title": "Rich girl problems | RelationSh!t Advice ft. @GursimranKhamba @avantinagral @siddyshetty",
+        "videoId": "KUqEGz_RVNg",
+        "guest": "",
+        "duration": 3364
+      },
+      {
+        "title": "Too mature for me?! | RelationSh!t Advice ft. Yashaswini Dayama, @masoom_rajwani @shamikchakrabarti",
+        "videoId": "IXf0zlfyPaI",
+        "guest": "",
+        "duration": 3064
+      },
+      {
+        "title": "The worst way to Break Up | RelationSh!t Advice ft. @Hoezaay @kaneezsurka007 @rohitraghvendra",
+        "videoId": "VDevuWbpLac",
+        "guest": "",
+        "duration": 2587
+      },
+      {
+        "title": "UNHINGED BOLLYWOOD | Relationsh!t Advice ft. Ayushmann, Wamiqa, Sara, Rakul, Shaad & Sakshi",
+        "videoId": "AWrp2Mt0POo",
+        "guest": "",
+        "duration": 2893
+      },
+      {
+        "title": "IT GOT INTENSE! | Relationsh!t Advice ft. @nainabeee @KaruneshTalwar @pavitrashettycomedy",
+        "videoId": "fSVVdjpTt1U",
+        "guest": "",
+        "duration": 2569
+      },
+      {
+        "title": "Bigots in the crowd?! | Relationsh!t Advice ft. @SushantDivgikarRaniKohenur @sapanv @siddyshetty",
+        "videoId": "x6jzlt87dSQ",
+        "guest": "",
+        "duration": 2542
+      },
+      {
+        "title": "Worthless Candidates | Relationsh!t Advice ft. @ComicKaustubhAgarwal @amanjcomedy @AnirbanDasgupta5",
+        "videoId": "MXY4K9po958",
+        "guest": "",
+        "duration": 2686
+      },
+      {
+        "title": "Cheating = no problem?! | Relationsh!t Advice ft. Huma Qureshi, @ShreejaChaturvedi @KareemaBarry27",
+        "videoId": "Z2IPGDayxT4",
+        "guest": "",
+        "duration": 2790
+      },
+      {
+        "title": "She revealed too much 😳 | Relationsh!t Advice ft. @Aadar @thebanat @mrsholmes221",
+        "videoId": "aoVZT-HNJwU",
+        "guest": "",
+        "duration": 2511
+      },
+      {
+        "title": "India's most wanted | Relationsh!t Advice ft.@sonofabish @VarunThakurOfficial @lisamishramusic",
+        "videoId": "JPN_gT37J-U",
+        "guest": "",
+        "duration": 3937
+      },
+      {
+        "title": "She lost the plot?! | RelationSh!t Advice ft.@TheRahulDua @uroojashfaq9701 @Agovindmenon",
+        "videoId": "Cl38LCi8j-s",
+        "guest": "",
+        "duration": 3052
+      },
+      {
+        "title": "We shouldn't have joked about this | RelationSh!t Advice ft. @TrinetraHaldar @sapanv @Hoezaay",
+        "videoId": "2lRD-UNbMF0",
+        "guest": "",
+        "duration": 2426
+      },
+      {
+        "title": "Rakhi Sawant ROASTED me | RelationSh!t Advice ft. @sakshi_shivdasani @pavitrashettycomedy",
+        "videoId": "rUJEToEKJM4",
+        "guest": "",
+        "duration": 2610
+      },
+      {
+        "title": "How 4 comedians tricked an astrologer | Relationsh!t Advice ft. Sumukhi, Sorabh & Joel",
+        "videoId": "bslUY9e4_3I",
+        "guest": "",
+        "duration": 2671
+      },
+      {
+        "title": "Bollywood couple story leaked | Relationsh!t Advice ft. Kunal Kemmu @nainabeee@AnirbanDasgupta5",
+        "videoId": "AROXjjJmDkE",
+        "guest": "",
+        "duration": 2361
       }
     ],
     "category": "Advice & banter",
-    "guest": "",
-    "description": ""
+    "description": "",
+    "coverVideoId": "PAweiRjZl0A",
+    "sourceUrl": "https://www.youtube.com/playlist?list=PLAr07-SQ7BDaCjuLBxHPlaFy1kFJe5ad-",
+    "checkedAt": "21 Sep 2026",
+    "availabilityNote": ""
   },
   {
     "name": "The General Fun Game Show",
     "host": "Kaneez Surka",
     "episodes": [
       {
+        "title": "TGFGS S1 PREMIER with Kaneez Surka Feat. Kanan Gill, Radhika Vaz and Rahul Subramanian",
+        "videoId": "gd8Ov_4IgkY",
+        "guest": "",
+        "duration": 1234
+      },
+      {
+        "title": "The General Fun Game Show with Kaneez Surka Ft. Tanmay Bhat, Nidhi Singh and Biswa Kalyan Rath",
+        "videoId": "4HR1KplYV4E",
+        "guest": "",
+        "duration": 1688
+      },
+      {
+        "title": "TGFGS S1 EP3 with Kaneez Surka Feat. Rohan Joshi, Abish Mathew, Sumukhi Suresh",
+        "videoId": "B1ALJzahiTk",
+        "guest": "",
+        "duration": 1963
+      },
+      {
+        "title": "TGFGS S1 EP4 with Kaneez Surka Feat. Mallika Dua, Varun Thakur and Neville Shah",
+        "videoId": "uckQ5mtouzw",
+        "guest": "",
+        "duration": 1771
+      },
+      {
+        "title": "TGFGS S1 EP5 with Kaneez Surka Feat. Zakir Khan, Ashish Shakya and Sonali Thakker",
+        "videoId": "PD29WSWLbYw",
+        "guest": "",
+        "duration": 1755
+      },
+      {
+        "title": "TGFGS S1 EP7 with Kaneez Surka Feat. Jose Covaco, Cyrus Sahukar and Kubra Sait",
+        "videoId": "a_BL6gKfERE",
+        "guest": "",
+        "duration": 1741
+      },
+      {
+        "title": "The General Fun Game Show with Kaneez Surka | S1 Finale | PART 1",
+        "videoId": "sJ7-3rmp1vA",
+        "guest": "",
+        "duration": 2125
+      },
+      {
+        "title": "The General Fun Game Show with Kaneez Surka | S1 Finale | PART 2",
+        "videoId": "j4VqaFwW1XI",
+        "guest": "",
+        "duration": 965
+      },
+      {
+        "title": "TGFGS S2 PREMIER with Kaneez Surka with Daniel Fernandes Anu Menon and Manish Anand",
+        "videoId": "XdQY-wjTWys",
+        "guest": "",
+        "duration": 2384
+      },
+      {
+        "title": "TGFGS S2 EP2 with Kaneez Surka Feat. Sahil Shah, Malishka Mendonsa and Sapan Verma",
+        "videoId": "BmzOY-lflok",
+        "guest": "",
+        "duration": 1938
+      },
+      {
+        "title": "TGFGS S2 EP3 with Kaneez Surka Feat.Gursimran Khamba, Srishti Dixit and Varun Grover",
+        "videoId": "BSqrEQhFQd0",
+        "guest": "",
+        "duration": 2104
+      },
+      {
+        "title": "TGFGS S2 EP4 with Kaneez Surka Feat. Biswa, Rahul Subramanian, Aadar Malik and Jhanavi Dave",
+        "videoId": "M5Eg0hArQjM",
+        "guest": "",
+        "duration": 2038
+      },
+      {
+        "title": "TGFGS S2 EP5 with Kaneez Surka Feat. Nishant Suri, Prashasti Singh and Rahul Dua",
+        "videoId": "3jOSatmUO6g",
+        "guest": "",
+        "duration": 2224
+      },
+      {
+        "title": "TGFGS S2 EP6 with Kaneez Surka Feat.Danish Sait Aishwarya Mohanraj and Kautuk Srivastava",
+        "videoId": "qvEjRvINtAI",
+        "guest": "",
+        "duration": 2020
+      },
+      {
+        "title": "TGFGS S2 EP7 with Kaneez Surka Feat. Sumeet Vyas, Maanvi Gagroo and Amol Parashar",
+        "videoId": "sLbGSGrCByk",
+        "guest": "",
+        "duration": 2075
+      },
+      {
+        "title": "THE GENERAL FUN GAME SHOW SEASON 2 FINALE! Prashasti S, Sahil S, Manish A, Varun G, Aishwarya M",
+        "videoId": "MyNbBEtH1Xg",
+        "guest": "",
+        "duration": 3009
+      },
+      {
+        "title": "The General Fun Game Show - S3 | EP 1 | ft. Munawar Faruqui, Rohan Joshi, Jose Covaco",
+        "videoId": "PZRLxNfjzio",
+        "guest": "",
+        "duration": 2679
+      },
+      {
         "title": "The General Fun Game Show - S3 | EP 2 | ft. Kanan Gill, Abish Mathew, Kenny Sebastian",
         "videoId": "w8v1KJ5RCfA",
-        "thumbnail": "https://i.ytimg.com/vi/w8v1KJ5RCfA/hqdefault.jpg",
-        "source": "https://www.youtube.com/watch?v=w8v1KJ5RCfA"
+        "guest": "",
+        "duration": 2834
+      },
+      {
+        "title": "The General Fun Game Show - S3 | EP 3 | ft. Kusha Kapila, Vijay Varma, Varun Thakur, Tarang Hardikar",
+        "videoId": "icgbnSAdj_U",
+        "guest": "",
+        "duration": 2631
       }
     ],
     "category": "Game shows",
-    "guest": "",
-    "description": ""
+    "description": "",
+    "coverVideoId": "gd8Ov_4IgkY",
+    "sourceUrl": "https://www.youtube.com/@kaneezsurka007/videos",
+    "checkedAt": "21 Sep 2026",
+    "availabilityNote": "Season 1, Episode 6 is unavailable in the official playlist."
   },
   {
     "name": "Who Let the Drunks Out",
     "host": "Swati Sachdeva",
     "episodes": [
       {
+        "title": "Who Let The Drunks Out! Comedy Game Show | Ep1",
+        "videoId": "SecoaC9RNOk",
+        "guest": "",
+        "duration": 2853
+      },
+      {
         "title": "Married Comedians Get Wasted | Who Let The Drunks Out Ep2 | Comedy Game Show",
         "videoId": "-zmcJyPbXF4",
-        "thumbnail": "https://i.ytimg.com/vi/-zmcJyPbXF4/hqdefault.jpg",
-        "source": "https://www.youtube.com/watch?v=-zmcJyPbXF4"
+        "guest": "",
+        "duration": 3159
+      },
+      {
+        "title": "Who Let The Drunks Out | Ep 3 Ft: @Madhur Virli @Harshita Gupta @sharmajikabaddabeta @Shreya Priyam Roy",
+        "videoId": "5-xAR_TaP9s",
+        "guest": "",
+        "duration": 3189
+      },
+      {
+        "title": "Who Let The Drunks Out | Ep 4 Ft: @Rahul Dua @Gursimran Khamba @Mallika Dua",
+        "videoId": "Xlpa2RQO9bU",
+        "guest": "",
+        "duration": 3171
+      },
+      {
+        "title": "Who Let The Drunks Out | Ep 5 Ft: @AnirbanDasgupta5 @ShreejaChaturvedi @chaubeypratyush",
+        "videoId": "xRoN0DPhl5g",
+        "guest": "",
+        "duration": 3391
       }
     ],
     "category": "Game shows",
-    "guest": "",
-    "description": ""
+    "description": "",
+    "coverVideoId": "SecoaC9RNOk",
+    "sourceUrl": "https://www.youtube.com/@swatisachdeva95/videos",
+    "checkedAt": "21 Sep 2026",
+    "availabilityNote": ""
   },
   {
     "name": "BroCode Roast",
     "host": "Aashish Solanki",
     "episodes": [
       {
+        "title": "BroCode Roast Ft. @raviguptacomedy | S2. Ep1",
+        "videoId": "9dX4h77PQV8",
+        "guest": "",
+        "duration": 4580
+      },
+      {
         "title": "BroCode Roast Ft. @KunalKamra | S2. Ep2",
         "videoId": "ScXWQe9Xoww",
-        "thumbnail": "https://i.ytimg.com/vi/ScXWQe9Xoww/hqdefault.jpg",
-        "source": "https://www.youtube.com/watch?v=ScXWQe9Xoww"
+        "guest": "",
+        "duration": 4276
       },
       {
         "title": "BroCode Roast Ft. @TandonAmit | S2. Ep3",
         "videoId": "PAq-1lCD_hA",
-        "thumbnail": "https://i.ytimg.com/vi/PAq-1lCD_hA/hqdefault.jpg",
-        "source": "https://www.youtube.com/watch?v=PAq-1lCD_hA"
+        "guest": "",
+        "duration": 4803
+      },
+      {
+        "title": "BroCode Roast Ft. @GauravKapoor | S2. Ep4",
+        "videoId": "HdixTuRXfwA",
+        "guest": "",
+        "duration": 4093
+      },
+      {
+        "title": "BroCode Roast Battle | S2. Ep5",
+        "videoId": "PGeuOtwDquE",
+        "guest": "",
+        "duration": 5268
       }
     ],
     "category": "Roasts",
-    "guest": "",
-    "description": ""
+    "description": "",
+    "coverVideoId": "9dX4h77PQV8",
+    "sourceUrl": "https://www.youtube.com/playlist?list=PLFcSwHXxax7w8MCFdrS3MsTbhb6xvd9aH",
+    "checkedAt": "21 Sep 2026",
+    "availabilityNote": ""
   },
   {
     "name": "Judge Me If You Can",
     "host": "Aashish Solanki",
     "episodes": [
       {
+        "title": "Judge Me If You Can! Ep01 ft. @ComicKaustubhAgarwal & @yuvrajdua4094",
+        "videoId": "1IA3p5NTwo8",
+        "guest": "",
+        "duration": 4694
+      },
+      {
         "title": "Judge Me If You Can! Ep02 ft. @raviguptacomedy & @Shubhamgaur09",
         "videoId": "F4NHLoMrSv8",
-        "thumbnail": "https://i.ytimg.com/vi/F4NHLoMrSv8/hqdefault.jpg",
-        "source": "https://www.youtube.com/watch?v=F4NHLoMrSv8"
+        "guest": "",
+        "duration": 4070
+      },
+      {
+        "title": "Judge Me If You Can! Ep03 ft. @ChiragPanjwani & @shreyapriyam83",
+        "videoId": "yPF2NKeAZo8",
+        "guest": "",
+        "duration": 3907
+      },
+      {
+        "title": "Judge Me If You Can! Ep04 ft. @madhurvirli @kushagrasrivastavaa",
+        "videoId": "WrHgwPsEMdQ",
+        "guest": "",
+        "duration": 3950
+      },
+      {
+        "title": "Bonus Episode 1 | Judge Me if You Can",
+        "videoId": "wEA_E76KF3I",
+        "guest": "",
+        "duration": 3656
+      },
+      {
+        "title": "Judge Me If You Can Ep. 05 ft @RajatSood & RJ Kisna",
+        "videoId": "p9J9cS1upRw",
+        "guest": "",
+        "duration": 4075
+      },
+      {
+        "title": "Judge Me If You Can Ep. 06 ft. @deveshdixit2347 and @chaubeypratyush",
+        "videoId": "fEKUuiJOscA",
+        "guest": "",
+        "duration": 5149
+      },
+      {
+        "title": "Judge Me If You Can Ep. 7 ft @NishantSuri11 & @agstandup",
+        "videoId": "yTevIThBThs",
+        "guest": "",
+        "duration": 2850
+      },
+      {
+        "title": "Judge Me If You Can | Bonus Episode 2. ft @RajatSood & RJ Kisna",
+        "videoId": "c_eYQzpzvus",
+        "guest": "",
+        "duration": 2533
+      },
+      {
+        "title": "Judge Me If You Can Ep 08 ft. @gauravgupta6685 & @InderSahani",
+        "videoId": "3h4lGVsEqXs",
+        "guest": "",
+        "duration": 4502
+      },
+      {
+        "title": "Judge me if you can Ep 09 ft @madhurvirliraw and @ShashiDhiman",
+        "videoId": "dnL44Z8PTlI",
+        "guest": "",
+        "duration": 3239
+      },
+      {
+        "title": "Judge Me If You Can Ep.10 ft @kushagrasrivastavaa & @Rawhitsingh",
+        "videoId": "a-UNLln4ZcE",
+        "guest": "",
+        "duration": 4750
+      },
+      {
+        "title": "Judge Me If You Can Ep.11 ft @GursimranKhamba @JaspreetSinghComedy",
+        "videoId": "yf-ltQG8388",
+        "guest": "",
+        "duration": 3255
+      },
+      {
+        "title": "Judge Me If You Can Ep.12 ft @ChiragPanjwani @boi_onkar",
+        "videoId": "laULlQbN6lg",
+        "guest": "",
+        "duration": 5852
+      },
+      {
+        "title": "Judge Me If You Can Ep.13 ft @nayabmidha7 & @RajatSood",
+        "videoId": "e1Lw8X-xG-w",
+        "guest": "",
+        "duration": 4268
+      },
+      {
+        "title": "Judge Me If You Can | Bonus Episode 03 ft @madhurvirliraw and @ShashiDhiman",
+        "videoId": "ad0ndEOlmsI",
+        "guest": "",
+        "duration": 3403
+      },
+      {
+        "title": "Judge Me If You Can Ep.14 ft Huma Qureshi & @beabassi",
+        "videoId": "gVFHPz0BKhw",
+        "guest": "",
+        "duration": 3651
+      },
+      {
+        "title": "Judge Me If You Can Ep.15 ft @ChiragPanjwani & @RaunaqRajani",
+        "videoId": "4nszQoxUiUU",
+        "guest": "",
+        "duration": 4321
+      },
+      {
+        "title": "Judge Me If You Can | Bonus Episode 04 | Bassi, Huma, Jaspreet & Khamba",
+        "videoId": "NqyBIiGuqx4",
+        "guest": "",
+        "duration": 4152
       }
     ],
     "category": "Panel shows",
-    "guest": "",
-    "description": ""
+    "description": "",
+    "coverVideoId": "1IA3p5NTwo8",
+    "sourceUrl": "https://www.youtube.com/playlist?list=PLFcSwHXxax7znCdpd0C6mGuJty_9NqRrg",
+    "checkedAt": "21 Sep 2026",
+    "availabilityNote": ""
   },
   {
     "name": "Lie Hard",
     "host": "Gaurav Kapoor",
     "episodes": [
       {
+        "title": "LIE HARD Ep. 1 ft @raviguptacomedy @ashishsolanki_1 @pannugurleen @ChiragPanjwani",
+        "videoId": "auWx4Knoap4",
+        "guest": "",
+        "duration": 4445
+      },
+      {
+        "title": "LIE HARD Ep. 2 ft @Anubhav Singh Bassi @Gaurav Gupta @Kaustubh Agarwal @Onkar Yadav",
+        "videoId": "g3oNp6KQZJg",
+        "guest": "",
+        "duration": 4795
+      },
+      {
+        "title": "LIE HARD Ep. 3 ft @madhurvirli @Shubhamgaur09 @shreyapriyam83 @Kullubaazi",
+        "videoId": "7GxHti-3yaI",
+        "guest": "",
+        "duration": 6066
+      },
+      {
+        "title": "LIE HARD Ep. 4 ft. @Puravjha_ @Harshgujral @RajatSood @AmitTiwariComedy",
+        "videoId": "HDa2s60SHJc",
+        "guest": "",
+        "duration": 5400
+      },
+      {
+        "title": "LIE HARD Ep. 5 ft @AakashGupta @KennySebastian @TheRahulDua @ShreejaChaturvedi",
+        "videoId": "EJzZ3ftkyt0",
+        "guest": "",
+        "duration": 6270
+      },
+      {
+        "title": "LIE HARD Ep. 6 ft. @JaspreetSinghComedy @TandonAmit @GursimranKhamba @jimmy_oye",
+        "videoId": "t9sdGEryhGE",
+        "guest": "",
+        "duration": 5336
+      },
+      {
+        "title": "LIE HARD Ep. 7 ft. @Azeem Banatwalla @Atul Khatri @Sapan Verma @Angad Ranyal",
+        "videoId": "PQ4BgXju6LQ",
+        "guest": "",
+        "duration": 4505
+      },
+      {
+        "title": "LIE HARD Ep. 8 ft @randomchikibumofficial @KaruneshTalwar @AnirbanDasgupta5 @vaibhavsethiacomedian",
+        "videoId": "0XaYuhAo9Pw",
+        "guest": "",
+        "duration": 6065
+      },
+      {
+        "title": "LIE HARD Ep 9 Ft. @SatishRayTV @RahgirLive @VinaySharmaComedy @mrpiyush",
+        "videoId": "xSvyxpIYNfA",
+        "guest": "",
+        "duration": 3670
+      },
+      {
+        "title": "LIE HARD Ep. 10 ft @Abijit Ganguly @Sorabh Pant @Nirmal Pillai @Abishek Kumar",
+        "videoId": "4X8cxEN3Pok",
+        "guest": "",
+        "duration": 6174
+      },
+      {
         "title": "LIE HARD S2 Ep 01 ft. @RahulSubramanian @AnirbanDasgupta5 @uroojashfaq9701",
         "videoId": "bwFSTZhK0tM",
-        "thumbnail": "https://i.ytimg.com/vi/bwFSTZhK0tM/hqdefault.jpg",
-        "source": "https://www.youtube.com/watch?v=bwFSTZhK0tM"
+        "guest": "",
+        "duration": 5220
+      },
+      {
+        "title": "LIE HARD S2 Ep 02 ft. @Gaurav Gupta @Nayab Midha @Inder Sahani",
+        "videoId": "4BGH9g5MS9o",
+        "guest": "",
+        "duration": 4281
+      },
+      {
+        "title": "LIE HARD S2 Ep 03 ft. @Aashish Solanki @Madhur Virli @Kaustubh Agarwal",
+        "videoId": "K8SiOiI6miQ",
+        "guest": "",
+        "duration": 5436
+      },
+      {
+        "title": "LIE HARD S2 Ep 04 ft. @Rahul Dua @Chirag Panjwani @Nishant Suri",
+        "videoId": "4KBBx1g71mQ",
+        "guest": "",
+        "duration": 4814
+      },
+      {
+        "title": "LIE HARD S2 Ep 05 ft. @Shubham Gaur @Tanya Khanijow @Brinda Sharma",
+        "videoId": "1Xm2M9NvXjM",
+        "guest": "",
+        "duration": 4659
+      },
+      {
+        "title": "LIE HARD S2 Ep 06 ft. @Onkar Yadav @Shreya Priyam Roy & Shreya Sharma Kapoor",
+        "videoId": "KnexG08BsE0",
+        "guest": "",
+        "duration": 3575
+      },
+      {
+        "title": "LIE HARD S3. Ep 01 ft. @RahulSubramanian @KennySebastian @GursimranKhamba",
+        "videoId": "dsL4d7rN0NY",
+        "guest": "",
+        "duration": 5841
+      },
+      {
+        "title": "LIE HARD S3 - Ep02 ft. @Jaspreet Singh @Kunal Kamra @Shubham Gaur & Rofl Gandhi",
+        "videoId": "LCBSPM8t2Qg",
+        "guest": "",
+        "duration": 5005
+      },
+      {
+        "title": "LIE HARD S3- Ep 03 ft @Jimmy @Kushagra Srivastava @Rajat Sood @Rohit Singh",
+        "videoId": "lz4PNH9wUJk",
+        "guest": "",
+        "duration": 5670
       }
     ],
     "category": "Game shows",
-    "guest": "",
-    "description": ""
+    "description": "",
+    "coverVideoId": "auWx4Knoap4",
+    "sourceUrl": "https://www.youtube.com/@GauravKapoor/videos",
+    "checkedAt": "21 Sep 2026",
+    "availabilityNote": ""
   },
   {
     "name": "The Nation Wants to Guess",
     "host": "Gursimran Khamba",
     "episodes": [
       {
+        "title": "The Nation Wants To Guess with Gursimran Khamba | EP 1 @Hoezaay @KennySebastian @sonofabish",
+        "videoId": "_3UvCy7FMTg",
+        "guest": "",
+        "duration": 4485
+      },
+      {
+        "title": "The Nation Wants To Guess with Gursimran Khamba | EP 2 @KaruneshTalwar @AnirbanDasgupta5 Shamik",
+        "videoId": "54UQvPPvg0o",
+        "guest": "",
+        "duration": 3445
+      },
+      {
+        "title": "The Nation Wants To Guess with Gursimran Khamba | EP3 @pannugurleen @RaunaqRajani @TandonAmit",
+        "videoId": "hMuyfGbwwZE",
+        "guest": "",
+        "duration": 2642
+      },
+      {
+        "title": "The Nation Wants To Guess with Gursimran Khamba | EP 4 @VarunThakurOfficial @thebanat Kautuk",
+        "videoId": "r0nG0-18pu4",
+        "guest": "",
+        "duration": 3146
+      },
+      {
+        "title": "Nation Wants to Guess with Khamba | EP5 ft @GauravKapoor @RahulSubramanian @SumairaShaikh",
+        "videoId": "Bvj6lZRLrlc",
+        "guest": "",
+        "duration": 4048
+      },
+      {
+        "title": "Nation Wants To Guess with Khamba | EP6 ft. @ashishsolanki_1 @RajatSood @ComicKaustubhAgarwal",
+        "videoId": "iDvobmrf-Ng",
+        "guest": "",
+        "duration": 4655
+      },
+      {
+        "title": "Nation Wants To Guess with Khamba | EP7 ft @AnubhavSinghBassi @AakashGupta @ShreejaChaturvedi",
+        "videoId": "x5cWXEsSsD0",
+        "guest": "",
+        "duration": 4449
+      },
+      {
+        "title": "Nation Wants To Guess with Khamba | EP8 feat @Hoezaay @uroojashfaq9701 @RahulSubramanian",
+        "videoId": "2HZBEKqksQE",
+        "guest": "",
+        "duration": 4077
+      },
+      {
+        "title": "Nation Wants To Guess with Khamba | EP9 @AnirbanDasgupta5 @yokalyanyo @PrashastiSinghStandup",
+        "videoId": "tIjBtIBjaDA",
+        "guest": "",
+        "duration": 5014
+      },
+      {
+        "title": "Nation Wants To Guess with Khamba | EP10 @ashishsolanki_1 @shreyapriyam83 @boi_onkar",
+        "videoId": "uSfSk7nXY4M",
+        "guest": "",
+        "duration": 4581
+      },
+      {
+        "title": "Nation Wants To Guess with Khamba | EP11 ft. @pannugurleen @TheRahulDua @gauravgupta6685",
+        "videoId": "NvE73f5saN0",
+        "guest": "",
+        "duration": 4469
+      },
+      {
+        "title": "Nation Wants to Guess with Khamba | EP12 @shamikchakrabarti@ShreejaChaturvedi @ChiragPanjwani",
+        "videoId": "C0yLJmHydfc",
+        "guest": "",
+        "duration": 4820
+      },
+      {
         "title": "Nation Wants to Guess with Khamba | Finale ft. @kaneezsurka007 @sonofabish @rohanjoshi8016",
         "videoId": "2pxmtBus3f8",
-        "thumbnail": "https://i.ytimg.com/vi/2pxmtBus3f8/hqdefault.jpg",
-        "source": "https://www.youtube.com/watch?v=2pxmtBus3f8"
+        "guest": "",
+        "duration": 5416
       }
     ],
     "category": "Game shows",
-    "guest": "",
-    "description": ""
+    "description": "",
+    "coverVideoId": "_3UvCy7FMTg",
+    "sourceUrl": "https://www.youtube.com/playlist?list=PLHR4q2qxTyLl3axwHUcKI2nvZw79_A4T5",
+    "checkedAt": "21 Sep 2026",
+    "availabilityNote": ""
   },
   {
     "name": "Madhur Model",
@@ -147,51 +1374,484 @@
       {
         "title": "MADHUR MODEL | EP 1 | Stand Up Comedy by Local Artists ft. @ashishsolanki_1 & @madhurvirli",
         "videoId": "rLP3zOb5hRE",
-        "thumbnail": "https://i.ytimg.com/vi/rLP3zOb5hRE/hqdefault.jpg",
-        "source": "https://www.youtube.com/watch?v=rLP3zOb5hRE"
+        "guest": "",
+        "duration": 2758
+      },
+      {
+        "title": "MADHUR MODEL | EP 2 | Stand Up Comedy by Local Artists ft. @ChiragPanjwani & @madhurvirli",
+        "videoId": "j3ok60wc3kM",
+        "guest": "",
+        "duration": 3612
+      },
+      {
+        "title": "MADHUR MODEL | EP 3 | P-1 | StandUp Comedy by Local Artists ft. @ChiragPanjwani & @madhurvirli",
+        "videoId": "7XRSvWLfmA4",
+        "guest": "",
+        "duration": 3102
+      },
+      {
+        "title": "MADHUR MODEL | EP 3 | P-2 | StandUp Comedy by Local Artists, @Chirag Panjwani@Madhur Virli",
+        "videoId": "ivL0slXlKF4",
+        "guest": "",
+        "duration": 4262
+      },
+      {
+        "title": "MADHUR MODEL | EP 4 | P-1 | Stand Up Comedy by Local Comics @ashishsolanki_1 & @ChiragPanjwani",
+        "videoId": "zQ_T07F31os",
+        "guest": "",
+        "duration": 3244
+      },
+      {
+        "title": "MADHUR MODEL | EP 4 | P-2 | StandUp Comedy | Ft. New Comics @Aashish Solanki @Chirag Panjwani",
+        "videoId": "o91EIU_Qbos",
+        "guest": "",
+        "duration": 2425
+      },
+      {
+        "title": "MADHUR MODEL | EP 5 | P-1 | Stand Up Comedy by New Comics, @Chirag Panjwani & @Madhur Virli",
+        "videoId": "6sqRW4svQYA",
+        "guest": "",
+        "duration": 2600
+      },
+      {
+        "title": "MADHUR MODEL | EP 5 | P-2 | Stand Up Comedy by New Comics @Chirag Panjwani & @Madhur Virli",
+        "videoId": "PsfGK2rTd-k",
+        "guest": "",
+        "duration": 3294
+      },
+      {
+        "title": "MADHUR MODEL | EP 6 | P-1 | Stand Up Comedy by New Comics @Chirag Panjwani & @Madhur Virli",
+        "videoId": "G6vVpJeBNF0",
+        "guest": "",
+        "duration": 3168
+      },
+      {
+        "title": "MADHUR MODEL | EP 6 | P-2 | Stand Up Comedy by New Comics @ChiragPanjwani & @madhurvirli",
+        "videoId": "ydI5Pb9Ng5U",
+        "guest": "",
+        "duration": 3711
+      },
+      {
+        "title": "MADHUR MODEL | EP 7 | P-1 | Stand Up Comedy by New Comics & @Gautham Govindan @Madhur Virli",
+        "videoId": "8UutYbQ2HH4",
+        "guest": "",
+        "duration": 4236
+      },
+      {
+        "title": "MADHUR MODEL | EP 7 | P-2 | Stand Up Comedy by New Comics, @Gautham Govindan & @Madhur Virli",
+        "videoId": "uC6gwBdtXhY",
+        "guest": "",
+        "duration": 2709
+      },
+      {
+        "title": "MADHUR MODEL | EP 8 | P-1 | Stand Up Comedy by New Comics, @ashishsolanki_1 & @madhurvirli",
+        "videoId": "wq6CSoZyNEg",
+        "guest": "",
+        "duration": 4168
+      },
+      {
+        "title": "MADHUR MODEL | EP 8 | P-2 | Stand Up Comedy by New Comics @ashishsolanki_1 @madhurvirli",
+        "videoId": "0IYNpp_VHhU",
+        "guest": "",
+        "duration": 4401
+      },
+      {
+        "title": "MADHUR MODEL | EP 9 | P -1 | Stand Up Comedy by New Comics, @Rajat Sood & @Madhur Virli",
+        "videoId": "G8klFsIcBb0",
+        "guest": "",
+        "duration": 3643
+      },
+      {
+        "title": "MADHUR MODEL | EP 9 | P -2 | Stand Up Comedy by New Comics @RajatSood & @madhurvirli",
+        "videoId": "Ie8Ktt9dkoU",
+        "guest": "",
+        "duration": 4137
+      },
+      {
+        "title": "MAHA EPISODE ! MADHUR MODEL | EP 10 | Stand Up Comedy | @kushagrasrivastavaa @Rawhitsingh",
+        "videoId": "lIxttu_L-QA",
+        "guest": "",
+        "duration": 7258
+      },
+      {
+        "title": "MADHUR MODEL | EP 11 | Stand Up Comedy | Ft. @Onkar Yadav, @Shreya Priyam Roy &@Madhur Virli",
+        "videoId": "1MoCQf2DKVc",
+        "guest": "",
+        "duration": 7109
+      },
+      {
+        "title": "MADHUR MODEL | EP 12 | Stand Up Comedy | Ft. @ComicKaustubhAgarwal @madhurvirli",
+        "videoId": "V1aqwv0bUeM",
+        "guest": "",
+        "duration": 7688
+      },
+      {
+        "title": "MADHUR MODEL | EP 13 | Stand Up Comedy | Ft. @Aashish Solanki @Shreya Priyam Roy",
+        "videoId": "dbTVJpr-BCE",
+        "guest": "",
+        "duration": 6015
+      },
+      {
+        "title": "MADHUR MODEL | EP 14 | Stand Up Comedy | Ft. @ChiragPanjwani & @madhurvirli",
+        "videoId": "929GPwXaSpA",
+        "guest": "",
+        "duration": 7241
+      },
+      {
+        "title": "MADHUR MODEL | EP 15 | Stand Up Comedy | Ft. @NishantSuri11 & @madhurvirli",
+        "videoId": "Ge_18ARtrxY",
+        "guest": "",
+        "duration": 5396
+      },
+      {
+        "title": "MADHUR MODEL | EP 16 | Stand Up Comedy | Ft. @ComicKaustubhAgarwal & @madhurvirli",
+        "videoId": "GyTqQ0bSqC4",
+        "guest": "",
+        "duration": 7731
+      },
+      {
+        "title": "MADHUR MODEL | EP 17 | Stand Up Comedy | Ft. @Rajat Sood & @Madhur Virli",
+        "videoId": "MsRqwUBTN0o",
+        "guest": "",
+        "duration": 7197
+      },
+      {
+        "title": "MADHUR MODEL | EP 18 | Stand Up Comedy | Ft. @ashishsolanki_1 & @notsopujari1",
+        "videoId": "hDbzsTkF1kM",
+        "guest": "",
+        "duration": 5956
+      },
+      {
+        "title": "MADHUR MODEL | EP 19 | Stand Up Comedy | Ft. @ChiragPanjwani & @Rjprajwal",
+        "videoId": "Cq27usaKQYE",
+        "guest": "",
+        "duration": 7823
+      },
+      {
+        "title": "MADHUR MODEL | EP 20 | Stand Up Comedy | Ft. @Gautham Govindan & @Madhur Virli",
+        "videoId": "KIdoU_EQTe4",
+        "guest": "",
+        "duration": 6983
+      },
+      {
+        "title": "MADHUR MODEL | EP 21 | Stand Up Comedy | Ft. @Onkar Yadav & @Madhur Virli",
+        "videoId": "196_jx1lbKU",
+        "guest": "",
+        "duration": 5844
+      },
+      {
+        "title": "EP 22 | MADHUR MODEL | Stand Up Comedy | Ft. @Urooj Ashfaq @Pavitra Shetty",
+        "videoId": "38iZUwpmW2w",
+        "guest": "",
+        "duration": 6614
+      },
+      {
+        "title": "EP 23 | MADHUR MODEL | Stand Up Comedy | Ft. @ChiragPanjwani",
+        "videoId": "4S_lrkj-Oa4",
+        "guest": "",
+        "duration": 6671
+      },
+      {
+        "title": "EP 24 | Madhur Model | Stand up Comedy ft. @Chirag Panjwani @Shamik Chakrabarti",
+        "videoId": "eKQgSJbhXMw",
+        "guest": "",
+        "duration": 6403
+      },
+      {
+        "title": "EP 26 | Madhur Model | Stand Up Comedy ft. @Urooj Ashfaq @Shaad Shafi @Madhur Virli",
+        "videoId": "7WN99LRlIJk",
+        "guest": "",
+        "duration": 6791
+      },
+      {
+        "title": "NEW EPISODE | EP 25 | Madhur Model | Silver Jubilee | Stand Up Comedy ft. @madhurvirli & friends!",
+        "videoId": "UKimPrpWguc",
+        "guest": "",
+        "duration": 7988
       }
     ],
     "category": "Panel shows",
-    "guest": "",
-    "description": ""
+    "description": "",
+    "coverVideoId": "rLP3zOb5hRE",
+    "sourceUrl": "https://www.youtube.com/playlist?list=PL1aP2I5Dch-B3Wm5wbSKJRV_UYcqnYum_",
+    "checkedAt": "21 Sep 2026",
+    "availabilityNote": ""
   },
   {
     "name": "Andha Pyaar",
     "host": "Vivek Samtani & Kaustubh Agarwal",
     "episodes": [
       {
-        "title": "ANDHA PYAAR | SEVEN ft. @ComicKaustubhAgarwal @ChiragPanjwani @kushagrasrivastavaa and Vivek",
+        "title": "ANDHA PYAAR | episode one ft. @Kaustubh Agarwal @Chirag Panjwani @Yuvraj Dua ⁠",
+        "videoId": "mrQ6X1dCrac",
+        "guest": "",
+        "duration": 3221
+      },
+      {
+        "title": "ANDHA PYAAR | episode TWO ft. @Kaustubh Agarwal @Gautham Govindan @Vivek Samtani and Aneri",
+        "videoId": "qhd7uGu7nfg",
+        "guest": "",
+        "duration": 2180
+      },
+      {
+        "title": "ANDHA PYAAR | episode 3 ft. @Chirag Panjwani @Onkar Yadav @Kushagra Srivastava and Vivek Samtani",
+        "videoId": "z_YC1Ety5f8",
+        "guest": "",
+        "duration": 3794
+      },
+      {
+        "title": "ANDHA PYAAR - episode four ft. @ChiragPanjwani @ComicKaustubhAgarwal Vivek Samtani and Navya Tiwari",
+        "videoId": "XpLRTPMtKag",
+        "guest": "",
+        "duration": 3392
+      },
+      {
+        "title": "ANDHA PYAAR | episode FIVE ft. @Kaustubh Agarwal @Nishant Tanwar @Vivek Samtani and Aneri",
+        "videoId": "MnWYmhx4__M",
+        "guest": "",
+        "duration": 2760
+      },
+      {
+        "title": "ANDHA PYAAR - episode SIX ft. @Chirag Panjwani @Kushagra Srivastava @Onkar Yadav and Vivek",
+        "videoId": "5qVzQGf9JAw",
+        "guest": "",
+        "duration": 2907
+      },
+      {
+        "title": "ANDHA PYAAR | SEVEN ft. @Kaustubh Agarwal @Chirag Panjwani @Kushagra Srivastava and Vivek",
         "videoId": "OKPOsyLHqME",
-        "thumbnail": "https://i.ytimg.com/vi/OKPOsyLHqME/hqdefault.jpg",
-        "source": "https://www.youtube.com/watch?v=OKPOsyLHqME",
-        "verificationSource": "https://videohighlight.com/v/OKPOsyLHqME",
-        "verificationNote": "Video ID and full original description obtained from secondary transcript service; direct YouTube indexing unavailable."
+        "guest": "",
+        "duration": 4706
+      },
+      {
+        "title": "ANDHA PYAAR |ep 8 ft.@ComicKaustubhAgarwal @kushagrasrivastavaa @ChiragPanjwani Vivek Samtani",
+        "videoId": "NTLqSJSEvow",
+        "guest": "",
+        "duration": 4700
+      },
+      {
+        "title": "ANDHA PYAAR | NINE | ft. Vivek Samtani @ComicKaustubhAgarwal @ChiragPanjwani @RajatSood",
+        "videoId": "bwpChcNjOJM",
+        "guest": "",
+        "duration": 2916
+      },
+      {
+        "title": "Andha Pyaar | Episode 10 ft. @Kaustubh Agarwal @Rajat Sood @Harman Preet Singh and Vivek Samtani",
+        "videoId": "H1UXO9s4I_k",
+        "guest": "",
+        "duration": 4300
+      },
+      {
+        "title": "ANDHA PYAAR | BEST EPISODE | ft. Vivek Samtani @Kaustubh Agarwal @Rajat Sood @Rohit Singh",
+        "videoId": "f420dFfG_RU",
+        "guest": "",
+        "duration": 5470
+      },
+      {
+        "title": "Andha Pyaar | ft. @Kaustubh Agarwal @Harman Preet Singh Vivek Samtani and Aamer",
+        "videoId": "TTUeCfiiVf8",
+        "guest": "",
+        "duration": 2635
+      },
+      {
+        "title": "ANDHA PYAAR | SPECIAL | @ComicKaustubhAgarwal @Rawhitsingh @kushagrasrivastavaa @boi_onkar and Vivek",
+        "videoId": "J9p5dUNbm5U",
+        "guest": "",
+        "duration": 3470
+      },
+      {
+        "title": "ANDHA PYAAR | UNO reverse ft. @ComicKaustubhAgarwal @RajatSood @ChiragPanjwani Vivek Samtani",
+        "videoId": "mwZIBDyI7y4",
+        "guest": "",
+        "duration": 5309
+      },
+      {
+        "title": "Andha Pyaar CHEATING episode | ft. @ComicKaustubhAgarwal @RajatSood @Rawhitsingh and Vivek Samtani",
+        "videoId": "qVqQSxpwcBs",
+        "guest": "",
+        "duration": 5742
+      },
+      {
+        "title": "Andha Pyaar | EYE OPENING episode ft. @ComicKaustubhAgarwal @RajatSood @Rawhitsingh and Vivek",
+        "videoId": "iPjtnSvCzoY",
+        "guest": "",
+        "duration": 5559
+      },
+      {
+        "title": "ANDHA PYAAR | KALESH | ft. Vivek Samtani @ComicKaustubhAgarwal @viditsharmaaa and Preet.",
+        "videoId": "p3Lc_XXQXxI",
+        "guest": "",
+        "duration": 5520
+      },
+      {
+        "title": "Andha Pyaar | WILDCARD episode | Vivek Samtani and @Kaustubh Agarwal",
+        "videoId": "vhtV0boAu9Y",
+        "guest": "",
+        "duration": 2843
+      },
+      {
+        "title": "ANDHA PYAAR | Banger episode | ft. @Kaustubh Agarwal @Rajat Sood @Rohit Singh and Vivek",
+        "videoId": "vfQwf9tsNgY",
+        "guest": "",
+        "duration": 4024
+      },
+      {
+        "title": "ANDHA PYAAR | Special Guest edition ft. @Kaustubh Agarwal @Gaurav Gupta and Vivek Samtani",
+        "videoId": "1Wmw6-3kgA0",
+        "guest": "",
+        "duration": 3780
+      },
+      {
+        "title": "ANDHA PYAAR | Mixed bag episode | ft. @ComicKaustubhAgarwal @iNamanArora @istanboss & Vivek",
+        "videoId": "8xrOzkKMyus",
+        "guest": "",
+        "duration": 4613
+      },
+      {
+        "title": "ANDHA PYAAR | Celebrity episode | @Harsh Beniwal @Kaustubh Agarwal @Rohit Singh & Vivek",
+        "videoId": "P-gfUXUhv2Q",
+        "guest": "",
+        "duration": 4446
+      },
+      {
+        "title": "Andha Pyaar | with FINEST @Kaustubh Agarwal @Rohit Singh @Naman Arora @Aaditya Kulshreshth aka Kullu Vivek",
+        "videoId": "RUeOpxEBY0Q",
+        "guest": "",
+        "duration": 5495
+      },
+      {
+        "title": "Andha Pyaar | ROAST special ft. @Harsh gujral @Kaustubh Agarwal @Rohit Singh and Vivek",
+        "videoId": "--NifeK_NeQ",
+        "guest": "",
+        "duration": 3216
+      },
+      {
+        "title": "ANDHA PYAAR is BACK | Best episode ft. @Kaustubh Agarwal @Rohit Singh @Rajat Sood & Vivek",
+        "videoId": "AQLWw4RIbGA",
+        "guest": "",
+        "duration": 6235
+      },
+      {
+        "title": "Bachpan ji on ANDHA PYAAR ft. @ChiragPanjwani @ComicKaustubhAgarwal and Vivek Samtani",
+        "videoId": "FmTXU3iEq2Y",
+        "guest": "",
+        "duration": 4498
+      },
+      {
+        "title": "ANDHA PYAAR | Sleeping beauty ft. @Kaustubh Agarwal @Rajat Sood @Rohit Singh and Vivek",
+        "videoId": "q5smCGp3ffM",
+        "guest": "",
+        "duration": 5060
+      },
+      {
+        "title": "ANDHA PYAAR | Music special | ft. @Kaustubh Agarwal @Rajat Sood @Harsh Beniwal and Vivek",
+        "videoId": "0jqNcLCqrls",
+        "guest": "",
+        "duration": 4308
+      },
+      {
+        "title": "ANDHA PYAAR | Friendship Day Special | ft. @ComicKaustubhAgarwal @RajatSood @Rawhitsingh & Vivek",
+        "videoId": "gGtehfxX_6c",
+        "guest": "",
+        "duration": 3349
+      },
+      {
+        "title": "Andha Pyaar | Surprise ft. @Kaustubh Agarwal @Chirag Panjwani @Kushagra Srivastava Vivek",
+        "videoId": "uHxPJJlkXbI",
+        "guest": "",
+        "duration": 5052
+      },
+      {
+        "title": "ANDHA PYAAR | Haryanvi Special ft @NEERAJ GOYAT @Onkar Yadav @Kaustubh Agarwal and Vivek",
+        "videoId": "oFjheenO-ao",
+        "guest": "",
+        "duration": 5634
+      },
+      {
+        "title": "ANDHA PYAAR | Surprise | ft. @MaanPanu @ComicKaustubhAgarwal @RajatSood @Rawhitsingh Vivek",
+        "videoId": "5yhzfQjinwI",
+        "guest": "",
+        "duration": 5306
       }
     ],
     "category": "Panel shows",
-    "guest": "",
-    "description": ""
+    "description": "",
+    "coverVideoId": "mrQ6X1dCrac",
+    "sourceUrl": "https://www.youtube.com/@VivekSamtani/videos",
+    "checkedAt": "21 Sep 2026",
+    "availabilityNote": ""
   },
   {
     "name": "Asking for a friend",
     "host": "Shashi Dhiman",
     "episodes": [
       {
-        "title": "Asking for a friend | Episode 6 | Standup Comedy show ft @ComicKaustubhAgarwal & @ShashiDhiman",
-        "videoId": "v9jacgf75Pk",
-        "thumbnail": "https://i.ytimg.com/vi/v9jacgf75Pk/hqdefault.jpg",
-        "source": "https://www.youtube.com/watch?v=v9jacgf75Pk"
-      },
-      {
         "title": "Friends Become Matchmakers | Asking for a Friend | Episode 1 | ft @madhurvirli @ShashiDhiman",
         "videoId": "sCizCkJqw2I",
-        "thumbnail": "https://i.ytimg.com/vi/sCizCkJqw2I/hqdefault.jpg",
-        "source": "https://www.youtube.com/watch?v=sCizCkJqw2I"
+        "guest": "",
+        "duration": 2396
+      },
+      {
+        "title": "Nobody wanted him | Asking for a friend | Episode 2 ft @ashishsolanki_1 @ShashiDhiman",
+        "videoId": "LQbo3DkpRc4",
+        "guest": "",
+        "duration": 2189
+      },
+      {
+        "title": "She Pitched Her Ex!!! | Asking for a friend | Ep 3 ft @GursimranKhamba @OhHarmanComedy",
+        "videoId": "tp8vAEo2_qA",
+        "guest": "",
+        "duration": 2105
+      },
+      {
+        "title": "Serial Cheater | Asking for a friend | Episode 4 | Standup Comedy ft @madhurvirli & @ShashiDhiman",
+        "videoId": "jhJ_JQoZrBo",
+        "guest": "",
+        "duration": 4207
+      },
+      {
+        "title": "Asking for a friend | Episode 5 | Standup Comedy show ft @shreyapriyam83 & @boi_onkar",
+        "videoId": "9ycoiRFRx2o",
+        "guest": "",
+        "duration": 3220
+      },
+      {
+        "title": "Asking for a friend | Episode 6 | Standup Comedy show ft @ComicKaustubhAgarwal & @ShashiDhiman",
+        "videoId": "v9jacgf75Pk",
+        "guest": "",
+        "duration": 3767
+      },
+      {
+        "title": "Asking for a friend | Episode 7 | Standup Comedy show ft @shreyapriyam83 @pavitrashettycomedy",
+        "videoId": "DcpTcj1uF-g",
+        "guest": "",
+        "duration": 4269
+      },
+      {
+        "title": "She fantasize being Sakshi Dhoni | Asking for a Friend | Episode 8 | Standup Comedy ft. @RajatSood",
+        "videoId": "8Kk4SZE_deQ",
+        "guest": "",
+        "duration": 2687
+      },
+      {
+        "title": "Asking for a Friend | Ep 9 | Dating Comedy Show ft @ChiragPanjwani & @kushagrasrivastavaa",
+        "videoId": "eUnral5N3Kg",
+        "guest": "",
+        "duration": 3124
+      },
+      {
+        "title": "Asking for a Friend | Episode 10 | Standup Comedy ft. @RajatSood",
+        "videoId": "OZ7ECyeDdks",
+        "guest": "",
+        "duration": 3493
       }
     ],
     "category": "Advice & banter",
-    "guest": "",
-    "description": ""
+    "description": "",
+    "coverVideoId": "sCizCkJqw2I",
+    "sourceUrl": "https://www.youtube.com/playlist?list=PLHl04AX7TBivqNrx3LmDP4joMFzInDvy9",
+    "checkedAt": "21 Sep 2026",
+    "availabilityNote": ""
   },
   {
     "name": "Keep it Kaam",
@@ -200,75 +1860,477 @@
       {
         "title": "Keep It Kaam | Ep1 ft. @madhurvirli",
         "videoId": "aJbx2ix3D0I",
-        "thumbnail": "https://i.ytimg.com/vi/aJbx2ix3D0I/hqdefault.jpg",
-        "source": "https://www.youtube.com/watch?v=aJbx2ix3D0I"
+        "guest": "",
+        "duration": 2599
+      },
+      {
+        "title": "KEEP IT KAAM | Episode 2 ft. @pravitarora | Work Life Balance is a Lie",
+        "videoId": "7rewschtjfI",
+        "guest": "",
+        "duration": 3266
+      },
+      {
+        "title": "KEEP IT KAAM | Episode 3 ft. @ashishsolanki_1 | Being Authoritative",
+        "videoId": "w3D3QB6ouSk",
+        "guest": "",
+        "duration": 3853
+      },
+      {
+        "title": "KEEP IT KAAM | Episode 4 ft. @ShreejaChaturvedi | Workplace Romance",
+        "videoId": "qu7LfzJP7-8",
+        "guest": "",
+        "duration": 2593
+      },
+      {
+        "title": "KEEP IT KAAM | Episode 5 ft. @gurindermarwah1 Work from Home",
+        "videoId": "WB4lhV5Mr_w",
+        "guest": "",
+        "duration": 3001
+      },
+      {
+        "title": "KEEP IT KAAM | Episode 6 ft. @TheRahulDua and @ChiragPanjwani",
+        "videoId": "7IXy1HJ2xh0",
+        "guest": "",
+        "duration": 3899
       },
       {
         "title": "KEEP IT KAAM | Episode 7 ft. @ComicKaustubhAgarwal @ChiragPanjwani",
         "videoId": "vxJ1wI_kkfs",
-        "thumbnail": "https://i.ytimg.com/vi/vxJ1wI_kkfs/hqdefault.jpg",
-        "source": "https://www.youtube.com/watch?v=vxJ1wI_kkfs"
+        "guest": "",
+        "duration": 3109
+      },
+      {
+        "title": "Office Birthday Culture | KEEP IT KAAM | Episode 08 ft. @uroojashfaq9701 @ChiragPanjwani",
+        "videoId": "voA0qjgBym4",
+        "guest": "",
+        "duration": 3624
+      },
+      {
+        "title": "Resigning Gracefully | KEEP IT KAAM | Episode 09 ft. @Shubhamgaur09 @ChiragPanjwani",
+        "videoId": "JMiSC4cYu90",
+        "guest": "",
+        "duration": 2491
+      },
+      {
+        "title": "Unemployment | KEEP IT KAAM | Episode 10 ft. @RajatSood",
+        "videoId": "hG8GlvgKilc",
+        "guest": "",
+        "duration": 3728
       }
     ],
     "category": "Advice & banter",
-    "guest": "",
-    "description": ""
+    "description": "",
+    "coverVideoId": "aJbx2ix3D0I",
+    "sourceUrl": "https://www.youtube.com/playlist?list=PLcvTnbGlgsGWrg1BydGm-qZE5NsQ5coIk",
+    "checkedAt": "21 Sep 2026",
+    "availabilityNote": ""
   },
   {
     "name": "Akal ke Ghode",
     "host": "Kaustubh Agarwal",
     "episodes": [
       {
+        "title": "Akal ke Ghode | Ep 01 ft. @RajatSood @ashishsolanki_1 @Rawhitsingh",
+        "videoId": "5adcyKG41gY",
+        "guest": "",
+        "duration": 3026
+      },
+      {
         "title": "Akal ke Ghode | Ep 02 ft @Kullubaazi @mrpiyush @kushagrasrivastavaa",
         "videoId": "4sLJt0abhuE",
-        "thumbnail": "https://i.ytimg.com/vi/4sLJt0abhuE/hqdefault.jpg",
-        "source": "https://www.youtube.com/watch?v=4sLJt0abhuE"
+        "guest": "",
+        "duration": 3484
       },
       {
         "title": "Akal ke Ghode | Ep 03 ft @GauravKapoor @deveshdixit2347 @NishantSuri11",
         "videoId": "1Coa2mRPEUU",
-        "thumbnail": "https://i.ytimg.com/vi/1Coa2mRPEUU/hqdefault.jpg",
-        "source": "https://www.youtube.com/watch?v=1Coa2mRPEUU"
+        "guest": "",
+        "duration": 3231
+      },
+      {
+        "title": "Akal Ke Ghode | Ep 04 ft @madhurvirli @RajatSood @kushagrasrivastavaa",
+        "videoId": "vnrQTwKdcQg",
+        "guest": "",
+        "duration": 3299
+      },
+      {
+        "title": "Akal ke Ghode Ep 05 @viditsharmaaa @pravitarora @thetusharbasra",
+        "videoId": "gvEIeTmn-kw",
+        "guest": "",
+        "duration": 3843
+      },
+      {
+        "title": "Akal ke Ghode Ep 06 ft. @GursimranKhamba @boi_onkar @masoom_rajwani",
+        "videoId": "cdTLSP5uoDg",
+        "guest": "",
+        "duration": 3930
+      },
+      {
+        "title": "Akal Ke Ghode Ep07 ft. @uroojashfaq9701 @RaunaqRajani @shamikchakrabarti",
+        "videoId": "helQimlIWMk",
+        "guest": "",
+        "duration": 4142
+      },
+      {
+        "title": "Akal Ke Ghode Ep08 ft. @GauravKapoor @TheRahulDua @ashishsolanki_1",
+        "videoId": "jbmO7oQgI6M",
+        "guest": "",
+        "duration": 4115
+      },
+      {
+        "title": "Akal Ke Ghode Ep09 ft. @VivekSamtani @pannugurleen @RajatSood",
+        "videoId": "rWh5G8t7PCM",
+        "guest": "",
+        "duration": 4004
+      },
+      {
+        "title": "Akal Ke Ghode Ep10 ft. @viditsharmaaa @Shubhamgaur09 & RJ Kisna",
+        "videoId": "wl792WNOBdc",
+        "guest": "",
+        "duration": 3444
+      },
+      {
+        "title": "Akal Ke Ghode Ep11 ft. @madhurvirli @ChiragPanjwani @boi_onkar",
+        "videoId": "HOM1AUFjp8A",
+        "guest": "",
+        "duration": 4200
+      },
+      {
+        "title": "Akal Ke Ghode Ep12 ft. @thetusharbasra @notsopujari1 @bhalamanushya",
+        "videoId": "f4TdgRTk8jo",
+        "guest": "",
+        "duration": 3376
+      },
+      {
+        "title": "Akal Ke Ghode Ep13 ft. @AnubhavSinghBassi @TheRahulDua @deveshdixit2347",
+        "videoId": "C58tWT_MrhQ",
+        "guest": "",
+        "duration": 4204
       }
     ],
     "category": "Game shows",
-    "guest": "",
-    "description": ""
+    "description": "",
+    "coverVideoId": "5adcyKG41gY",
+    "sourceUrl": "https://www.youtube.com/playlist?list=PLiHMN_YHs_iA4X0eICce8rJ1AEUFd-nP4",
+    "checkedAt": "21 Sep 2026",
+    "availabilityNote": ""
   },
   {
     "name": "Loose Emotions",
     "host": "Kaustubh Agarwal & Vidit Sharma",
     "episodes": [
       {
-        "title": "Loose Emotions EP 4 | Stand Up Comedy | @ComicKaustubhAgarwal & Vidit Sharma",
-        "videoId": "C-7GAgwFNKo",
-        "thumbnail": "https://i.ytimg.com/vi/C-7GAgwFNKo/hqdefault.jpg",
-        "source": "https://www.youtube.com/watch?v=C-7GAgwFNKo"
+        "title": "Loose Emotions EP 1 ft @pannugurleen | @ComicKaustubhAgarwal & Vidit Sharma",
+        "videoId": "1MleTY0uFsU",
+        "guest": "",
+        "duration": 2312
       },
       {
         "title": "Loose Emotions EP 2 ft @ashishsolanki_1 | @ComicKaustubhAgarwal & Vidit Sharma",
         "videoId": "aCCWf5UDkgs",
-        "thumbnail": "https://i.ytimg.com/vi/aCCWf5UDkgs/hqdefault.jpg",
-        "source": "https://www.youtube.com/watch?v=aCCWf5UDkgs"
+        "guest": "",
+        "duration": 1909
+      },
+      {
+        "title": "Loose Emotions EP 3 ft @boi_onkar | @ComicKaustubhAgarwal & Vidit Sharma",
+        "videoId": "nHFElvhSYS8",
+        "guest": "",
+        "duration": 2405
+      },
+      {
+        "title": "Loose Emotions EP 4 | Stand Up Comedy | @ComicKaustubhAgarwal & Vidit Sharma",
+        "videoId": "C-7GAgwFNKo",
+        "guest": "",
+        "duration": 2448
+      },
+      {
+        "title": "Loose Emotions EP 5 | Stand Up Comedy | @ComicKaustubhAgarwal & Vidit Sharma",
+        "videoId": "5kIS27e-D7A",
+        "guest": "",
+        "duration": 2647
+      },
+      {
+        "title": "Loose Emotions EP 6 | Stand Up Comedy | @VivekSamtani @ComicKaustubhAgarwal & Vidit Sharma",
+        "videoId": "Qw3JJQ-DIf4",
+        "guest": "",
+        "duration": 2886
+      },
+      {
+        "title": "Loose Emotions EP 7| Stand Up Comedy | @ThePrakharGuptaXperience Kaustubh Agarwal & Vidit Sharma",
+        "videoId": "km0aWyeg59k",
+        "guest": "",
+        "duration": 2282
+      },
+      {
+        "title": "Loose Emotions EP 8| Stand Up Comedy | @ChiragPanjwani Kaustubh Agarwal & Vidit Sharma",
+        "videoId": "H0D6Bx6t2f0",
+        "guest": "",
+        "duration": 2200
+      },
+      {
+        "title": "Loose Emotions EP 9| Stand Up Comedy | @RajatSood Kaustubh Agarwal & Vidit Sharma",
+        "videoId": "jMDq_yxvv5c",
+        "guest": "",
+        "duration": 2643
+      },
+      {
+        "title": "Loose Emotions EP 10 | Stand Up Comedy | ft.@KuchBhiMehta @ComicKaustubhAgarwal & Vidit Sharma",
+        "videoId": "NGOGCDyjWcc",
+        "guest": "",
+        "duration": 2486
+      },
+      {
+        "title": "Loose Emotions EP 11 | Stand Up Comedy | ft.@RaunaqRajani @ComicKaustubhAgarwal & Vidit Sharma",
+        "videoId": "wEBYSdXSpCs",
+        "guest": "",
+        "duration": 2801
+      },
+      {
+        "title": "Loose Emotions EP 12 | Stand Up Comedy | ft. @pannugurleen @ComicKaustubhAgarwal & Vidit Sharma",
+        "videoId": "ZG98zgaVIGg",
+        "guest": "",
+        "duration": 2409
+      },
+      {
+        "title": "Loose Emotions EP 13 | Stand Up Comedy | ft. @TheRahulDua @ComicKaustubhAgarwal & Vidit Sharma",
+        "videoId": "lWbUBJG0tDQ",
+        "guest": "",
+        "duration": 2378
+      },
+      {
+        "title": "Loose Emotions EP 14| Stand Up Comedy | ft. @boi_onkar @ComicKaustubhAgarwal & Vidit Sharma",
+        "videoId": "jbRIZ--yPMM",
+        "guest": "",
+        "duration": 2555
+      },
+      {
+        "title": "Loose Emotions EP 15| Stand Up Comedy | ft. @GursimranKhamba @ComicKaustubhAgarwal & Vidit Sharma",
+        "videoId": "sw07bXJcp9M",
+        "guest": "",
+        "duration": 2961
+      },
+      {
+        "title": "Loose Emotions EP 16 | Stand Up Comedy | ft. @RajatSood @ComicKaustubhAgarwal & Vidit Sharma",
+        "videoId": "keNiagrQ1G0",
+        "guest": "",
+        "duration": 2606
+      },
+      {
+        "title": "Loose Emotions EP 17 | Stand Up Comedy | ft. @VivekSamtani @ComicKaustubhAgarwal & Vidit Sharma",
+        "videoId": "pleNA30iQMA",
+        "guest": "",
+        "duration": 3495
       }
     ],
     "category": "Advice & banter",
-    "guest": "",
-    "description": ""
+    "description": "",
+    "coverVideoId": "1MleTY0uFsU",
+    "sourceUrl": "https://www.youtube.com/@viditsharmaaa/videos",
+    "checkedAt": "21 Sep 2026",
+    "availabilityNote": ""
   },
   {
     "name": "That Filmy Game Show",
     "host": "Antariksh Takkar",
     "episodes": [
       {
+        "title": "The Ta Ra Rum Pum Upset | That Filmy Game Show ft. @Agovindmenon vs Hoshang Maini | Ep 1 #bollywood",
+        "videoId": "YD6tBPd51QE",
+        "guest": "",
+        "duration": 5904
+      },
+      {
+        "title": "That Filmy Game Show ft. Navin Noronha vs Noel Cordeiro | Ep 2",
+        "videoId": "8YJmlBkXios",
+        "guest": "",
+        "duration": 4265
+      },
+      {
+        "title": "That Filmy Game Show w/ @SriraamP vs @akashsarawgi | Ep 3",
+        "videoId": "pWOm2BMIt2U",
+        "guest": "",
+        "duration": 4353
+      },
+      {
+        "title": "Main Veer Tu Zaara | That Filmy Game Show ft. @siddyshetty vs @AdityaGundeti | Ep. 04",
+        "videoId": "psedey3MAAI",
+        "guest": "",
+        "duration": 3675
+      },
+      {
+        "title": "My Ram-Lakhan Will Come! ft. Chinmay Mhatre vs Shahan Karanjia | Ep. 05 | That Filmy Game Show",
+        "videoId": "OXeStPfxC5w",
+        "guest": "",
+        "duration": 4248
+      },
+      {
+        "title": "Do Aur Do Paanch How? | Gaurav Pawar vs Jeet Mody | Ep 06 | That Filmy Game Show",
+        "videoId": "RiNxDuY1L-o",
+        "guest": "",
+        "duration": 5153
+      },
+      {
+        "title": "Salaam-E-Again! | Ep. 07 | Mikhail Almeida vs Shaad Shafi | That Filmy Game Show",
+        "videoId": "6qY1XrLPr98",
+        "guest": "",
+        "duration": 4779
+      },
+      {
+        "title": "That Filmy Game Show ft. @urjitawani.vs @DevanshiSofficial @ShreejaChaturvedi #quizshow | Ep. 08",
+        "videoId": "AERk3s4Opyo",
+        "guest": "",
+        "duration": 6598
+      },
+      {
+        "title": "That Filmy Game Show ft. Shaurya Tyagi vs Christopher Baretto | Pressure Aa Gaya #Bollywood | Ep 09",
+        "videoId": "5cSrLArVvHk",
+        "guest": "",
+        "duration": 4833
+      },
+      {
+        "title": "That Filmy Game Show ft. Snayhil Aneja vs Abbas Momin | Apna Sapna In The Jungle #moviequiz",
+        "videoId": "mOPdLcWEAq4",
+        "guest": "",
+        "duration": 4580
+      },
+      {
+        "title": "That Filmy Game Show ft. @siddharthdudeja vs @shamikchakrabarti | Welcome Back Partners | Ep. 11",
+        "videoId": "MX8wNkd7gVI",
+        "guest": "",
+        "duration": 6327
+      },
+      {
+        "title": "That Filmy Game Show ft. Varun Nair and Shubham Sejpal | #moviequiz #bollywoodsongs | Ep. 12",
+        "videoId": "WLpw4--XydA",
+        "guest": "",
+        "duration": 5235
+      },
+      {
+        "title": "That Filmy Game Show ft. Raghav Thakkar vs Pankaj Sharma #moviequiz #bollywoodquiz",
+        "videoId": "C-synAbteSw",
+        "guest": "",
+        "duration": 5115
+      },
+      {
         "title": "That Filmy Game Show ft. @KautukSrivastavaIsHere vs @neville_shah | Movie Quiz",
         "videoId": "oSHUt7VZA58",
-        "thumbnail": "https://i.ytimg.com/vi/oSHUt7VZA58/hqdefault.jpg",
-        "source": "https://www.youtube.com/watch?v=oSHUt7VZA58"
+        "guest": "",
+        "duration": 6858
+      },
+      {
+        "title": "That FIlmy Game Show ft. Tarang Hardikar vs Girish Rasam | #moviequiz #bollywood #comedypodcast",
+        "videoId": "3VirULaI3bI",
+        "guest": "",
+        "duration": 5813
+      },
+      {
+        "title": "That Filmy Game Show ft. Mohit Khushalani vs Prachi Wagh of @KhaaneMeinKyaHai #moviequiz #bollywood",
+        "videoId": "ZtrswnXvyjA",
+        "guest": "",
+        "duration": 5188
+      },
+      {
+        "title": "That Filmy Game Show ft. Kartik Sadvij vs Gilheri | #bollywoodquiz #moviequiz #gameshow",
+        "videoId": "NEDd8l56KDc",
+        "guest": "",
+        "duration": 5328
+      },
+      {
+        "title": "Clash of Filmy Frenemies | That Filmy Game Show ft. @MikhailAlmeida vs @BhavishComedy #moviequiz",
+        "videoId": "GDfNe4r28Ag",
+        "guest": "",
+        "duration": 7406
+      },
+      {
+        "title": "That Filmy Game Show ft. @SumairaShaikh vs @urjitawani. | #bollywood #moviequiz",
+        "videoId": "bALeHzNtQKE",
+        "guest": "",
+        "duration": 6514
+      },
+      {
+        "title": "That Filmy Game Show ft. @siddharthdudeja vs @sejbhat | #BollywoodGameShow #moviequiz",
+        "videoId": "u_SR6X04PWA",
+        "guest": "",
+        "duration": 6841
+      },
+      {
+        "title": "That Filmy Game Show ft. @agstandup vs @VinaySharmaComedy | #BollywoodQuiz",
+        "videoId": "TWWtyhflCJ0",
+        "guest": "",
+        "duration": 5253
+      },
+      {
+        "title": "That Filmy Game Show ft. @shamikchakrabarti vs @Agovindmenon | #bollywoodpodcast #moviequiz",
+        "videoId": "d8Xx4xqNXeI",
+        "guest": "",
+        "duration": 6396
+      },
+      {
+        "title": "That Filmy Game Show ft. @ShashwatMaheshwari vs @JoelDsouza | Bollywood Expert Quiz For Amateurs",
+        "videoId": "vuG4MclYof8",
+        "guest": "",
+        "duration": 5477
+      },
+      {
+        "title": "That Filmy Game Show ft. @Aadar vs @TheAshishShakya | Bollywood Comedy Quiz Show",
+        "videoId": "lrEdB3Iwk7A",
+        "guest": "",
+        "duration": 4623
+      },
+      {
+        "title": "That Filmy Game Show ft. @sumitsourav_official vs @pavitrashettycomedy Bollywood Comedy Quiz Show",
+        "videoId": "8qu3qq_XcjY",
+        "guest": "",
+        "duration": 4838
+      },
+      {
+        "title": "That Filmy Game Show ft. @uroojashfaq9701 vs @SumairaShaikh | Bollywood Quiz Show",
+        "videoId": "uCt5MpKGhYc",
+        "guest": "",
+        "duration": 4664
+      },
+      {
+        "title": "That Filmy Game Show ft @ExDeeAnas vs @Pulkit.Kochar | Amitabh Bachchan Was His Roommate? #bollywood",
+        "videoId": "P4V-ZLEhZac",
+        "guest": "",
+        "duration": 8013
+      },
+      {
+        "title": "That Filmy Game Show ft. @ShreejaChaturvedi vs @amanjcomedy | Comedy Bollywood Quiz | War 2 Roast",
+        "videoId": "kFGHHYNdLvk",
+        "guest": "",
+        "duration": 7456
+      },
+      {
+        "title": "That Filmy Game Show ft. @sonofabish vs @TarangHardikar | #BollywoodQuiz #moviegameshow #bollywood",
+        "videoId": "Wj52UPxadmU",
+        "guest": "",
+        "duration": 5332
+      },
+      {
+        "title": "That Filmy Game Show ft. @GursimranKhamba vs @SahilShahcomedy | #comedypodcast #gameshow #bollywood",
+        "videoId": "FbU_U9bNrM4",
+        "guest": "",
+        "duration": 5255
+      },
+      {
+        "title": "That Filmy Game Show ft. @SumukhiSuresh vs @PrashastiSinghStandup | #bollywood #moviequiz",
+        "videoId": "RqBIIi4i5zg",
+        "guest": "",
+        "duration": 4816
+      },
+      {
+        "title": "That Filmy Game Show ft. @vaibhavsethiacomedian vs @AnirbanDasgupta5 | #moviequiz #bollywood #comedy",
+        "videoId": "wTGZdkNlaQ4",
+        "guest": "",
+        "duration": 6079
       }
     ],
     "category": "Game shows",
-    "guest": "",
-    "description": ""
+    "description": "",
+    "coverVideoId": "YD6tBPd51QE",
+    "sourceUrl": "https://www.youtube.com/playlist?list=PLw78lyH0Q5skeoEX4i3yQJTeKWKyExDTA",
+    "checkedAt": "21 Sep 2026",
+    "availabilityNote": ""
   }
 ]
