@@ -5,3 +5,4 @@ dev-server.log
 out/
 .sites-runtime/
 *.tsbuildinfo
+.npm-cache/
