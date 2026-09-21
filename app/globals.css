@@ -11,3 +11,62 @@
 .episode-guest{grid-template-columns:max-content minmax(0,1fr);column-gap:18px}.episode-guest .guest-label{padding-right:2px}@media(max-width:760px){.episode-guest{grid-template-columns:max-content minmax(0,1fr);column-gap:12px}}
 .episode-search{position:static;z-index:auto}
 .episode-guest{margin-bottom:0}
+
+/* Responsive refinements */
+@media(max-width:820px){
+ .spotlight{grid-template-columns:1fr;min-height:0}
+ .spotlight-image{grid-row:1;min-height:0;aspect-ratio:16/9}
+ .spotlight-copy{min-height:320px}
+ .spotlight h2{min-height:auto}
+}
+
+@media(max-width:520px){
+ header{height:68px;padding-inline:20px;justify-content:space-between}
+ header nav{display:none}
+ .brand{font-size:19px}
+ .brand-icon{width:30px;height:32px;margin-right:8px}
+ main{padding-inline:20px}
+ .intro{padding:30px 0 25px}
+ h1{font-size:clamp(38px,12vw,47px);letter-spacing:-2px;margin:16px 0}
+ .intro p{font-size:14px}
+ .spotlight{border-radius:12px}
+ .spotlight-copy{min-height:0;padding:22px}
+ .spotlight h2{font-size:28px;margin-top:18px}
+ .spotlight-copy>.primary{width:100%;min-height:44px}
+ .spotlight-controls{gap:9px;padding-top:22px}
+ .spotlight-controls>button{width:40px;height:40px;flex:0 0 40px}
+ .spotlight-dots{justify-content:center;gap:4px}
+ .catalogue{padding-top:32px}
+ .section-title h2{font-size:22px}
+ .search{width:100%;min-width:0}
+ .filters button{min-height:40px}
+ .grid{grid-template-columns:1fr;gap:32px}
+ .card-heading{min-height:0}
+ .card-heading h3{font-size:18px}
+ .host{min-height:0;font-size:13px;margin:8px 0 13px}
+ .card-bottom button{min-height:36px;font-size:12px}
+ footer{align-items:flex-start;flex-direction:column;gap:10px}
+ footer p,footer>span{width:auto;margin-left:0}
+ dialog{width:calc(100% - 16px);max-height:96dvh;border-radius:12px}
+ .dialog-inner{padding:24px 16px;max-height:96dvh}
+ .close{top:12px;right:12px}
+ .dialog-inner h2{font-size:clamp(26px,8vw,31px);margin-right:42px}
+ .episode-header{margin-top:26px}
+ .episode-header h3{font-size:20px}
+ .episode{grid-template-columns:1fr;gap:12px;padding:10px}
+ .episode h4{font-size:15px;margin:6px 0 9px}
+ .episode-label{font-size:10px}
+ .episode-guest{font-size:13px;column-gap:10px}
+ .more-link{min-height:44px}
+ .empty{padding:48px 18px}
+}
+
+@media(max-width:360px){
+ header,main{padding-left:16px;padding-right:16px}
+ .spotlight-copy{padding:20px}
+ .spotlight-meta{gap:7px}
+ .spotlight-counter{font-size:10px}
+ .spotlight-controls{gap:6px}
+ .spotlight-controls>button{width:36px;height:36px;flex-basis:36px}
+ .dialog-inner{padding-left:14px;padding-right:14px}
+}
