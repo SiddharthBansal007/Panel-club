@@ -1,0 +1,39 @@
+{
+  "minDurationSeconds": 180,
+  "exclude": "\\b(bonus|behind the scenes|making of|trailer|teaser|bloopers?|compilation)\\b",
+  "shows": {
+    "India's Got Latent": {
+      "include": "latent",
+      "channelId": "UCAov2BBv1ZJav0c_yHEciAw"
+    },
+    "Pretty Good Roast Show": {},
+    "Relationshit Advice": {},
+    "The General Fun Game Show": {
+      "include": "tgfgs|general fun game show",
+      "channelId": "UC6a7TnbzoeggcDscJBrR0kw"
+    },
+    "Who Let the Drunks Out": {
+      "include": "drunks? out",
+      "channelId": "UCllSh_d1Brc9PLypjhm1_YA"
+    },
+    "BroCode Roast": {},
+    "Judge Me If You Can": {},
+    "Lie Hard": {
+      "include": "lie hard",
+      "channelId": "UCeP5_FL11TnvXuvrFvALJyA"
+    },
+    "The Nation Wants to Guess": {},
+    "Madhur Model": {},
+    "Andha Pyaar": {
+      "include": "andha pyaar",
+      "channelId": "UCqzcceB6MQJZ5L1xAu_jHiQ"
+    },
+    "Asking for a friend": {},
+    "Keep it Kaam": {},
+    "Akal ke Ghode": {},
+    "Loose Emotions": {
+      "include": "loose emotions",
+      "channelId": "UCai38RWi7uTuT3oJuSMFufw"
+    }
+  }
+}
