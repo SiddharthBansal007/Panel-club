@@ -10,3 +10,4 @@
 .episode>section{display:flex;flex-direction:column;align-self:stretch;justify-content:center}.episode-guest{display:grid;grid-template-columns:72px minmax(0,1fr);align-items:start;gap:12px;width:100%;margin:8px 0 12px;color:var(--muted);font-size:12px;line-height:1.45}.episode-guest .guest-label{white-space:nowrap}.episode-guest .guest-value{display:block;min-width:0;min-height:18px;height:auto;padding-bottom:3px;overflow-wrap:anywhere}.episode .watch{margin-top:0}@media(max-width:760px){.episode-guest{grid-template-columns:48px minmax(0,1fr);gap:8px}.episode>section{justify-content:flex-start}}
 .episode-guest{grid-template-columns:max-content minmax(0,1fr);column-gap:18px}.episode-guest .guest-label{padding-right:2px}@media(max-width:760px){.episode-guest{grid-template-columns:max-content minmax(0,1fr);column-gap:12px}}
 .episode-search{position:static;z-index:auto}
+.episode-guest{margin-bottom:0}

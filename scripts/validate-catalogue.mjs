@@ -9,6 +9,13 @@ const errors=[];
 const seenShows=new Set();
 const seenVideos=new Map();
 const episodes=[];
+const personKey=name=>name.normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]/gi,'').toLowerCase().replace(/^ashishsolanki$/,'aashishsolanki');
+const splitHosts=host=>host.split(/\s*(?:&|\band\b)\s*/i).filter(Boolean);
+function guestPanelists(host,guest){
+ const names=[...splitHosts(host),...guest.split(/\s*,\s*/)];
+ const seen=new Set();
+ return names.filter(name=>{const key=personKey(name);if(!key||seen.has(key))return false;seen.add(key);return true});
+}
 
 for(const show of shows){
  if(seenShows.has(show.name))errors.push(`Duplicate show name: ${show.name}`);
@@ -17,12 +24,16 @@ for(const show of shows){
  if(show.episodes?.[0]?.videoId!==show.coverVideoId)errors.push(`Cover is not episode 1 for ${show.name}`);
 
  for(const episode of show.episodes??[]){
-  const guest=(guestOverrides[episode.videoId]??episode.guest??'').trim();
+  const creditedGuest=(guestOverrides[episode.videoId]??episode.guest??'').trim();
+  const names=guestPanelists(show.host,creditedGuest);
+  const guest=names.join(', ');
   const previous=seenVideos.get(episode.videoId);
   if(previous)errors.push(`Duplicate YouTube video ${episode.videoId}: ${previous} and ${show.name}`);
   seenVideos.set(episode.videoId,show.name);
-  if(!guest)errors.push(`Missing Guest/Panelist: ${show.name} — ${episode.title}`);
+  if(!creditedGuest)errors.push(`Missing episode Guest/Panelist credits: ${show.name} — ${episode.title}`);
   if(guest.includes('@'))errors.push(`Channel handle used as a name: ${show.name} — ${episode.title}`);
+  for(const host of splitHosts(show.host))if(!names.some(name=>personKey(name)===personKey(host)))errors.push(`Host missing from Guest/Panelist: ${show.name} — ${episode.title}`);
+  if(new Set(names.map(personKey)).size!==names.length)errors.push(`Repeated Guest/Panelist name: ${show.name} — ${episode.title}`);
   if(/\b(bonus|bonus clip|behind the scenes)\b/i.test(episode.title))errors.push(`Bonus/clip entry remains: ${show.name} — ${episode.title}`);
   episodes.push({...episode,show:show.name,guest});
  }
