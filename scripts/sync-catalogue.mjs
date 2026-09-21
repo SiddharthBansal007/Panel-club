@@ -177,7 +177,7 @@ for(const show of shows){
  for(const candidate of candidates){
   let meta;
   try{meta=await fetchVideoMeta(candidate.videoId);}
-  catch(error){warnings.push(`Unavailable ${candidate.videoId} (${show.name}): ${error.message}`);continue;}
+  catch(error){warnings.push(`Unavailable (${show.name}): ${candidate.title} [${candidate.videoId}] — ${error.message}`);continue;}
   const title=(meta.title||candidate.title).trim();
   if(excludePattern?.test(title)){warnings.push(`Excluded by title (${show.name}): ${title}`);continue;}
   if(meta.duration&&meta.duration<minDuration){warnings.push(`Short video skipped (${meta.duration}s, ${show.name}): ${title}`);continue;}

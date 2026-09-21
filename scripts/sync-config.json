@@ -1,6 +1,6 @@
 {
   "minDurationSeconds": 180,
-  "exclude": "\\b(bonus|behind the scenes|making of|trailer|teaser|bloopers?|compilation)\\b",
+  "exclude": "\\b(bonus|behind the scenes|making of|trailer|teaser|bloopers?|compilation|members only)\\b",
   "shows": {
     "India's Got Latent": {
       "include": "latent",
