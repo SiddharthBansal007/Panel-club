@@ -8,7 +8,7 @@ type Show={name:string;host:string;category:string;description:string;episodes:E
 const guestOverrides=guestOverridesData as Record<string,string>;
 const personKey=(name:string)=>name.normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]/gi,'').toLowerCase().replace(/^ashishsolanki$/,'aashishsolanki');
 function guestPanelists(host:string,guest:string){
- const names=[...host.split(/\s*(?:&|\band\b)\s*/i),...guest.split(/\s*,\s*/)];
+ const names=[...host.split(/\s*(?:&|\band\b)\s*/i),...guest.split(/\s*(?:,|&)\s*/)];
  const seen=new Set<string>();
  return names.filter(name=>{const key=personKey(name);if(!key||seen.has(key))return false;seen.add(key);return true}).join(', ');
 }

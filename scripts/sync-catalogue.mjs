@@ -207,7 +207,7 @@ for(const show of shows){
   let guest;
   if(guests.length)guest=guests.join(', ');
   else if(strict){warnings.push(`No guest credits, skipped (${show.name}): ${title}`);continue;}
-  else{guest=show.host;warnings.push(`No guest credits, using host (${show.name}): ${title}`);}
+  else{guest=splitHosts(show.host).join(', ');warnings.push(`No guest credits, using host (${show.name}): ${title}`);}
   knownVideos.add(candidate.videoId);
   const episode={title,videoId:candidate.videoId,guest};
   if(meta.duration)episode.duration=meta.duration;

@@ -12,7 +12,7 @@ const episodes=[];
 const personKey=name=>name.normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]/gi,'').toLowerCase().replace(/^ashishsolanki$/,'aashishsolanki');
 const splitHosts=host=>host.split(/\s*(?:&|\band\b)\s*/i).filter(Boolean);
 function guestPanelists(host,guest){
- const names=[...splitHosts(host),...guest.split(/\s*,\s*/)];
+ const names=[...splitHosts(host),...guest.split(/\s*(?:,|&)\s*/)];
  const seen=new Set();
  return names.filter(name=>{const key=personKey(name);if(!key||seen.has(key))return false;seen.add(key);return true});
 }
