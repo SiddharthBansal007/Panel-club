@@ -152,6 +152,8 @@ const collectHandles=text=>[...text.matchAll(handlePattern)].map(match=>match[1]
 
 const handleCache=new Map();
 const channelWords=/\b(comedy|comedian|comic|official|studios?|media|productions?|films?|network|tv|entertainment|podcast|shorts|clips|vlogs?|live|records|music|channel)\b/i;
+// Curated @handle -> person, for handles whose channel name isn't the person (sync-config.json "handles").
+const handleNames=new Map(Object.entries(config.handles??{}).map(([handle,name])=>[handle.replace(/^@/,'').toLowerCase(),name]));
 async function resolveHandle(handle){
  const cacheKey=handle.toLowerCase();
  if(handleCache.has(cacheKey))return handleCache.get(cacheKey);
@@ -252,7 +254,7 @@ async function extractGuests({title,description,host}){
   for(const match of sentence.matchAll(handlePattern))if(!roleBeforeHandle.test(sentence.slice(0,match.index)))descriptionHandles.push(match[1].replace(/[._-]+$/,''));
  }
  for(const handle of new Set([...collectHandles(title),...descriptionHandles])){
-  const name=nameFromChannel(await resolveHandle(handle));
+  const name=handleNames.get(handle.toLowerCase())??nameFromChannel(await resolveHandle(handle));
   if(!name)continue;
   const index=positionOf(name);
   add(name,Number.isFinite(index)?index:titleLength);

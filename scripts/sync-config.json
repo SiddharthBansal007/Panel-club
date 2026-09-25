@@ -1,6 +1,14 @@
 {
   "minDurationSeconds": 180,
   "exclude": "\\b(bonus|behind the scenes|making of|trailer|teaser|bloopers?|compilation|members only)\\b",
+  "handles": {
+    "JokeSingh": "Nishant Tanwar",
+    "sonofabish": "Abish Mathew",
+    "FlyingBeast320": "Gaurav Taneja",
+    "KuchBhiMehta": "Aakash Mehta",
+    "ExDeeAnas": "Md Anas",
+    "sumitsourav_official": "Sumit Sourav"
+  },
   "shows": {
     "India's Got Latent": {
       "include": "latent",
