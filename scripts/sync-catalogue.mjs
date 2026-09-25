@@ -176,7 +176,8 @@ function nameFromChannel(channelTitle){
  for(const [key,display] of knownNames)if(key.length>=5&&flat.includes(key)&&(!best||key.length>best.key.length))best={key,display};
  if(best)return best.display;
  const cleaned=channelTitle.replace(/^(?:comic|comedian|the)\s+/i,'').replace(/\s*[|\-–—(].*$/,'').trim();
- if(channelWords.test(cleaned)||junkWords.test(cleaned))return null;
+ // All-caps titles ("RIDER OP") are brand/gaming channels, not people.
+ if(channelWords.test(cleaned)||junkWords.test(cleaned)||cleaned===cleaned.toUpperCase())return null;
  const words=cleaned.split(/\s+/);
  if(words.some(word=>/^(?:of|the|and|by|with|for)$/i.test(word)))return null;
  if(words.length<2||words.length>4||!words.every(word=>/^[A-Z][A-Za-z'.]*$/.test(word)))return null;
