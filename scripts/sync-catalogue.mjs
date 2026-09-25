@@ -69,7 +69,26 @@ function extractPlayerResponse(html){
  return null;
 }
 
+const apiKey=process.env.YOUTUBE_API_KEY;
+const isoSeconds=value=>{
+ const match=value?.match(/^P(?:(\d+)D)?T?(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?$/);
+ return match?((+match[1]||0)*86400+(+match[2]||0)*3600+(+match[3]||0)*60+(+match[4]||0)):0;
+};
+
+async function fetchVideoMetaApi(videoId){
+ const url=`https://www.googleapis.com/youtube/v3/videos?part=snippet,contentDetails,status&id=${videoId}&key=${apiKey}`;
+ let data;
+ try{data=JSON.parse(await fetchText(url));}
+ catch(error){throw new Error(`YouTube API: ${error.message}`);}
+ const item=data.items?.[0];
+ if(!item)throw new Error('NOT_FOUND');
+ if(item.status?.privacyStatus!=='public')throw new Error(item.status?.privacyStatus?.toUpperCase()||'UNKNOWN');
+ if(item.snippet?.liveBroadcastContent==='upcoming')throw new Error('UPCOMING');
+ return {title:item.snippet?.title??'',duration:isoSeconds(item.contentDetails?.duration),description:item.snippet?.description??''};
+}
+
 async function fetchVideoMeta(videoId){
+ if(apiKey)return fetchVideoMetaApi(videoId);
  const html=await fetchText(`https://www.youtube.com/watch?v=${videoId}`);
  const player=extractPlayerResponse(html);
  if(!player)throw new Error('player response missing');
@@ -143,6 +162,8 @@ const today=`${String(now.getUTCDate()).padStart(2,'0')} ${monthNames[now.getUTC
 const added=[];
 const warnings=[];
 let feedsResolved=0;
+let candidatesSeen=0;
+let botBlocked=0;
 
 for(const show of shows){
  const setting=config.shows[show.name];
@@ -176,8 +197,9 @@ for(const show of shows){
  const newEpisodes=[];
  for(const candidate of candidates){
   let meta;
+  candidatesSeen++;
   try{meta=await fetchVideoMeta(candidate.videoId);}
-  catch(error){warnings.push(`Unavailable (${show.name}): ${candidate.title} [${candidate.videoId}] — ${error.message}`);continue;}
+  catch(error){if(error.message==='LOGIN_REQUIRED')botBlocked++;warnings.push(`Unavailable (${show.name}): ${candidate.title} [${candidate.videoId}] — ${error.message}`);continue;}
   const title=(meta.title||candidate.title).trim();
   if(excludePattern?.test(title)){warnings.push(`Excluded by title (${show.name}): ${title}`);continue;}
   if(meta.duration&&meta.duration<minDuration){warnings.push(`Short video skipped (${meta.duration}s, ${show.name}): ${title}`);continue;}
@@ -197,6 +219,11 @@ for(const show of shows){
 
 if(!feedsResolved){
  console.error('Episode sync failed: no YouTube feeds could be read.');
+ process.exit(1);
+}
+
+if(candidatesSeen&&botBlocked===candidatesSeen){
+ console.error(`Episode sync failed: YouTube blocked all ${botBlocked} video lookup(s) (LOGIN_REQUIRED). Set YOUTUBE_API_KEY.`);
  process.exit(1);
 }
 

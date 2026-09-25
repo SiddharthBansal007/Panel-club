@@ -33,6 +33,7 @@ jobs:
         run: node scripts/sync-catalogue.mjs
         env:
           SYNC_COMMIT_MESSAGE: ${{ runner.temp }}/sync-commit-message.txt
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
 
       - name: Validate catalogue
         run: node scripts/validate-catalogue.mjs
