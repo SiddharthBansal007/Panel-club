@@ -212,6 +212,14 @@ if(dryRun){
 }
 
 for(const item of added)console.log(`+ ${item.show}: ${item.title} [${item.videoId}] -> ${item.guest}`);
+
+if(process.env.SYNC_COMMIT_MESSAGE&&added.length&&!dryRun){
+ const subject=added.length===1
+  ?`chore: add ${added[0].show} episode: ${added[0].title}`
+  :`chore: add ${added.length} new episodes`;
+ const body=added.map(item=>`- ${item.show}: ${item.title} (${item.guest}) https://youtu.be/${item.videoId}`);
+ await writeFile(process.env.SYNC_COMMIT_MESSAGE,[subject,'',...body].join('\n')+'\n');
+}
 if(verbose||warnings.length)for(const warning of warnings)console.log(`! ${warning}`);
 
 if(process.env.GITHUB_STEP_SUMMARY){
