@@ -240,8 +240,17 @@ async function extractGuests({title,description,host}){
    add(candidate,Number.isFinite(index)?index:titleLength);
   }
  }
- // 4. @handles in the title or guest-facing description lines (Instagram/credit lines are already dropped), resolved to channel names.
- for(const handle of new Set([...collectHandles(title),...collectHandles(body)])){
+ // 4. @handles resolved to channel names: all title handles, but from the description only sentences that
+ //    introduce the panel ("Watch as artists @a @b", "joined by @c"), skipping handles right after a role
+ //    ("our chief intern @x", "presented by @brand").
+ const panelSentence=/\b(artists?|panel(?:ists?)?|guests?|comedians?|contestants?|joined by|featuring|ft|feat|with)\b/i;
+ const roleBeforeHandle=/\b(intern|editor|producer|director|writer|dop|camera|sponsor|presented by|powered by|brought to you by|in association with|thanks to)\W+(?:\w+\W+){0,2}$/i;
+ const descriptionHandles=[];
+ for(const sentence of body.split(/(?<=[.!?])\s+(?=[A-Z])|\n\s*\n/)){
+  if(!panelSentence.test(sentence.replace(handlePattern,'')))continue;
+  for(const match of sentence.matchAll(handlePattern))if(!roleBeforeHandle.test(sentence.slice(0,match.index)))descriptionHandles.push(match[1].replace(/[._-]+$/,''));
+ }
+ for(const handle of new Set([...collectHandles(title),...descriptionHandles])){
   const name=nameFromChannel(await resolveHandle(handle));
   if(!name)continue;
   const index=positionOf(name);
