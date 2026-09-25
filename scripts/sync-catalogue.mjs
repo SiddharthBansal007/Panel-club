@@ -112,11 +112,78 @@ function rememberName(name){
 }
 for(const show of shows){
  for(const host of splitHosts(show.host))rememberName(host);
- for(const episode of show.episodes)for(const name of episode.guest.split(','))rememberName(name);
+ for(const episode of show.episodes)for(const name of (overrides[episode.videoId]??episode.guest).split(/\s*(?:,|&)\s*/))rememberName(name);
 }
-for(const value of Object.values(overrides))for(const name of value.split(','))rememberName(name);
+for(const value of Object.values(overrides))for(const name of value.split(/\s*(?:,|&)\s*/))rememberName(name);
 
-function extractGuests({title,description,host}){
+// Description lines that credit crew/sponsors ("Editor : X", "DOP - Y") never name guests.
+const creditLine=/^\s*[\w .\/&()-]{0,40}\b(edit(?:or|ing)?|dop|camera|cinematograph\w*|music|sound|mix(?:ing)?|thumbnail|design|logo|production|producer|produced|direct(?:ion|or|ed)|written|writer|script|management|manager|venue|intro|set|lights?|graphics?|colou?r|shoot|studio|sponsor\w*|partner|download|disclaimer|special thanks|thanks|instagram|ig|twitter|follow|tickets?|merch|coupon|timestamps?)s?\b[^:\n]{0,20}[:\-–—]/i;
+const timestampLine=/^\s*\d{1,2}:\d{2}/;
+const sectionHeader=/^\s*(?:panel(?:ists?)?|guests?|featuring|cast|comedians)\s*[:\-–]?\s*$/i;
+// A bare role heading ("Writers", "Sound", "Created by") starts a crew block that runs to the next blank line.
+const roleHeader=/^\s*(?:created by|credits?|crew|team|writers?|written by|direct(?:or|ion|ed by)|produc(?:er|tion)(?: designer)?|edit(?:or|ing|ed by)|sound|audio|music|graphics?|voice ?over|bts|camera|dop|cinematograph\w*|thumbnail|design(?:er)?|art|logo|lights?|research|intern|management|special thanks)\s*[:\-–]?\s*$/i;
+function guestLines(description){
+ const kept=[];
+ let inCredits=false;
+ for(const line of description.split('\n')){
+  if(!line.trim()){inCredits=false;kept.push('');continue;}
+  if(sectionHeader.test(line)){inCredits=false;kept.push(line);continue;}
+  if(roleHeader.test(line)){inCredits=true;continue;}
+  if(inCredits||creditLine.test(line)||timestampLine.test(line))continue;
+  kept.push(line.replace(/https?:\/\/\S+/g,''));
+ }
+ return kept.join('\n');
+}
+// Same person if the keys match or differ by one letter (e.g. "Kenny Sabastian" vs "Kenny Sebastian").
+function sameName(a,b){
+ if(a===b)return true;
+ if(Math.min(a.length,b.length)<8||Math.abs(a.length-b.length)>1)return false;
+ let i=0,j=0,edits=0;
+ while(i<a.length&&j<b.length){
+  if(a[i]===b[j]){i++;j++;continue;}
+  if(++edits>1)return false;
+  if(a.length>b.length)i++;else if(b.length>a.length)j++;else{i++;j++;}
+ }
+ return edits+(a.length-i)+(b.length-j)<=1;
+}
+const wordsOf=text=>' '+text.normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim()+' ';
+const handlePattern=/(?<![\w.])@([A-Za-z0-9._-]{3,30})/g;
+const collectHandles=text=>[...text.matchAll(handlePattern)].map(match=>match[1].replace(/[._-]+$/,''));
+
+const handleCache=new Map();
+const channelWords=/\b(comedy|comedian|comic|official|studios?|media|productions?|films?|network|tv|entertainment|podcast|shorts|clips|vlogs?|live|records|music|channel)\b/i;
+async function resolveHandle(handle){
+ const cacheKey=handle.toLowerCase();
+ if(handleCache.has(cacheKey))return handleCache.get(cacheKey);
+ let name=null;
+ try{
+  if(apiKey){
+   const data=JSON.parse(await fetchText(`https://www.googleapis.com/youtube/v3/channels?part=snippet&forHandle=${encodeURIComponent('@'+handle)}&key=${apiKey}`));
+   name=data.items?.[0]?.snippet?.title??null;
+  }else{
+   const html=await fetchText(`https://www.youtube.com/@${encodeURIComponent(handle)}`);
+   name=decodeXml(html.match(/<meta property="og:title" content="([^"]+)"/)?.[1]??'')||null;
+  }
+ }catch{}
+ handleCache.set(cacheKey,name);
+ return name;
+}
+// Turn a channel title into a person's name: prefer a catalogue name it contains, otherwise accept a plain 2–4 word name.
+function nameFromChannel(channelTitle){
+ if(!channelTitle)return null;
+ const flat=personKey(channelTitle);
+ let best=null;
+ for(const [key,display] of knownNames)if(key.length>=5&&flat.includes(key)&&(!best||key.length>best.key.length))best={key,display};
+ if(best)return best.display;
+ const cleaned=channelTitle.replace(/^(?:comic|comedian|the)\s+/i,'').replace(/\s*[|\-–—(].*$/,'').trim();
+ if(channelWords.test(cleaned)||junkWords.test(cleaned))return null;
+ const words=cleaned.split(/\s+/);
+ if(words.some(word=>/^(?:of|the|and|by|with|for)$/i.test(word)))return null;
+ if(words.length<2||words.length>4||!words.every(word=>/^[A-Z][A-Za-z'.]*$/.test(word)))return null;
+ return cleaned;
+}
+
+async function extractGuests({title,description,host}){
  const matches=[];
  const seen=new Set();
  const hostKeys=new Set(splitHosts(host).map(personKey));
@@ -124,32 +191,61 @@ function extractGuests({title,description,host}){
   const display=name.replace(/@/g,'').replace(/\s+/g,' ').replace(/^[\s|,&\-–—:]+|[\s|,&\-–—:]+$/g,'').trim();
   if(!display||display.includes('@'))return;
   const key=personKey(display);
-  if(!key||key.length<4||seen.has(key)||hostKeys.has(key))return;
+  if(!key||key.length<4||[...seen,...hostKeys].some(other=>sameName(key,other)))return;
   seen.add(key);
   matches.push({display,index});
  };
- const titleFlat=personKey(title);
- const descriptionFlat=personKey(description);
- const positionOf=key=>{
-  const inTitle=titleFlat.indexOf(key);
-  if(inTitle>=0)return inTitle;
-  const inDescription=descriptionFlat.indexOf(key);
-  return inDescription>=0?titleFlat.length+inDescription:Infinity;
+ const body=guestLines(description);
+ // Match whole words ("Yash Rajiv" is not "Yashraj"), or a single hashtag/handle token equal to the name ("#kushakapila").
+ const titleWords=wordsOf(title);
+ const text=titleWords+wordsOf(body);
+ const tokens=[...text.matchAll(/[a-z0-9]+/g)].map(match=>({key:personKey(match[0].replace(/\d+$/,'')),index:match.index}));
+ const titleLength=titleWords.length;
+ const positionOf=name=>{
+  const phrase=wordsOf(name);
+  if(phrase.trim()){const index=text.indexOf(phrase);if(index>=0)return index;}
+  const key=personKey(name);
+  return tokens.find(token=>token.key===key)?.index??Infinity;
  };
+ // 1. Names already in the catalogue, found anywhere in the title or description.
  for(const [key,display] of knownNames){
-  if(key.length<5)continue;
-  const index=positionOf(key);
+  if(key.length<4)continue;
+  const index=positionOf(display);
   if(Number.isFinite(index))add(display,index);
  }
- const marker=title.match(/(?:ft\.?|feat\.?|featuring)\s*([\s\S]+)$/i);
- if(marker){
-  for(const token of marker[1].replace(/@/g,' , ').split(/\s*(?:,|&|\band\b|\||\/)\s*/i)){
-   const candidate=token.replace(/@/g,'').trim();
+ // 2. New names after "ft./featuring/guests/panelists" in the title or any description line.
+ const markerPattern=/(?:\bft\.?|\bfeat\.?|\bfeaturing|\bguests?\b\s*[:\-–]|\bpanel(?:ists?)?\b\s*[:\-–])\s*(.+)$/i;
+ const knownKeys=[...knownNames.keys(),...hostKeys];
+ for(const line of [title,...body.split('\n')]){
+  const marker=line.match(markerPattern);
+  if(!marker)continue;
+  for(const token of marker[1].replace(handlePattern,' , ').split(/\s*(?:,|&|\band\b|\||\/)\s*/i)){
+   const candidate=token.replace(/[.!?:;]+$/,'').trim();
    if(!candidate||junkWords.test(candidate))continue;
-   if(!candidate.includes(' ')||!/^[A-Z]/.test(candidate)||candidate.length>40)continue;
-   const index=positionOf(personKey(candidate));
-   add(candidate,Number.isFinite(index)?index:titleFlat.length);
+   if(/[0-9]/.test(candidate)||!/^[A-Z]/.test(candidate)||candidate.length>40)continue;
+   // One-word names ("Orry") only from the title, and not when it is just a known person's first name ("Vivek", "Onkar").
+   if(!candidate.includes(' ')&&(line!==title||!/^[A-Z][a-z]{3,}$/.test(candidate)||knownKeys.some(key=>key!==personKey(candidate)&&key.startsWith(personKey(candidate)))))continue;
+   const index=positionOf(candidate);
+   add(candidate,Number.isFinite(index)?index:titleLength);
   }
+ }
+ // 3. Names listed one per line under a "Panelists"/"Guests" heading in the description.
+ const lines=body.split('\n');
+ for(let i=0;i<lines.length;i++){
+  if(!sectionHeader.test(lines[i]))continue;
+  for(let j=i+1;j<lines.length&&lines[j].trim()&&!/^\s*[-_=*]{3,}/.test(lines[j]);j++){
+   const candidate=lines[j].replace(handlePattern,'').split(/\s*[\/|:–—]\s*|\s+-\s+/)[0].trim();
+   if(!candidate||junkWords.test(candidate)||/[0-9]/.test(candidate)||!candidate.includes(' ')||!/^[A-Z]/.test(candidate)||candidate.length>40)continue;
+   const index=positionOf(candidate);
+   add(candidate,Number.isFinite(index)?index:titleLength);
+  }
+ }
+ // 4. @handles in the title or guest-facing description lines (Instagram/credit lines are already dropped), resolved to channel names.
+ for(const handle of new Set([...collectHandles(title),...collectHandles(body)])){
+  const name=nameFromChannel(await resolveHandle(handle));
+  if(!name)continue;
+  const index=positionOf(name);
+  add(name,Number.isFinite(index)?index:titleLength);
  }
  matches.sort((a,b)=>a.index-b.index);
  return matches.map(match=>match.display);
@@ -203,7 +299,7 @@ for(const show of shows){
   const title=(meta.title||candidate.title).trim();
   if(excludePattern?.test(title)){warnings.push(`Excluded by title (${show.name}): ${title}`);continue;}
   if(meta.duration&&meta.duration<minDuration){warnings.push(`Short video skipped (${meta.duration}s, ${show.name}): ${title}`);continue;}
-  const guests=extractGuests({title,description:meta.description,host:show.host});
+  const guests=await extractGuests({title,description:meta.description,host:show.host});
   let guest;
   if(guests.length)guest=guests.join(', ');
   else if(strict){warnings.push(`No guest credits, skipped (${show.name}): ${title}`);continue;}
