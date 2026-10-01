@@ -226,8 +226,8 @@ async function extractGuests({title,description,host}){
    const candidate=token.replace(/[.!?:;]+$/,'').trim();
    if(!candidate||junkWords.test(candidate))continue;
    if(/[0-9]/.test(candidate)||!/^[A-Z]/.test(candidate)||candidate.length>40)continue;
-   // One-word names ("Orry") only from the title, and not when it is just a known person's first name ("Vivek", "Onkar").
-   if(!candidate.includes(' ')&&(line!==title||!/^[A-Z][a-z]{3,}$/.test(candidate)||knownKeys.some(key=>key!==personKey(candidate)&&key.startsWith(personKey(candidate)))))continue;
+   // One-word names ("Orry") only from the title, and not when it is just a known person's first or last name ("Vivek", "Hussain").
+   if(!candidate.includes(' ')&&(line!==title||!/^[A-Z][a-z]{3,}$/.test(candidate)||knownKeys.some(key=>key!==personKey(candidate)&&(key.startsWith(personKey(candidate))||key.endsWith(personKey(candidate))))))continue;
    const index=positionOf(candidate);
    add(candidate,Number.isFinite(index)?index:titleLength);
   }
@@ -260,7 +260,9 @@ async function extractGuests({title,description,host}){
   add(name,Number.isFinite(index)?index:titleLength);
  }
  matches.sort((a,b)=>a.index-b.index);
- return matches.map(match=>match.display);
+ // A one-word name that is part of a fuller name found for this episode is the same person ("Hussain" / "Mohammed Hussain").
+ const full=matches.filter(match=>match.display.includes(' ')).map(match=>wordsOf(match.display));
+ return matches.filter(match=>match.display.includes(' ')||!full.some(words=>words.includes(wordsOf(match.display)))).map(match=>match.display);
 }
 
 const knownVideos=new Set(shows.flatMap(show=>show.episodes.map(episode=>episode.videoId)));
