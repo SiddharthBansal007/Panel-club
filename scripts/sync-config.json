@@ -52,6 +52,10 @@
     "Gossip Boys": {
       "include": "gossip boys",
       "channelId": "UCh1nI2KoL8snz4LfAuZqj7Q"
+    },
+    "The Escape Room": {
+      "include": "escape room",
+      "channelId": "UCGmhWgV9bmslB0Levatl6qA"
     }
   }
 }

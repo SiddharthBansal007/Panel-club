@@ -922,6 +922,12 @@
         "duration": 1755
       },
       {
+        "title": "TGFGS S1 EP6 with Kaneez Surka Feat. Kenny Sebastian, Naveen Richard and Urooj Ashfaq",
+        "videoId": "q5fcEPBqSxI",
+        "guest": "Kenny Sebastian, Naveen Richard, Urooj Ashfaq",
+        "duration": 1822
+      },
+      {
         "title": "TGFGS S1 EP7 with Kaneez Surka Feat. Jose Covaco, Cyrus Sahukar and Kubra Sait",
         "videoId": "a_BL6gKfERE",
         "guest": "Jose Covaco, Cyrus Sahukar, Kubra Sait",
@@ -1006,6 +1012,12 @@
         "duration": 2631
       },
       {
+        "title": "Zakir Khan Goes on a Game Show in NYC 😂",
+        "videoId": "YcLy8kNQnvs",
+        "guest": "Zakir Khan, Ashley Austin Morris, Shaunak Godkhindi",
+        "duration": 2383
+      },
+      {
         "title": "The General Fun Game Show - S3 | EP 5 | ft. Anubhav Singh Bassi, Aakash Gupta, Sumukhi Suresh",
         "videoId": "USaD0PEoZns",
         "guest": "Anubhav Singh Bassi, Aakash Gupta, Sumukhi Suresh",
@@ -1017,7 +1029,7 @@
     "coverVideoId": "gd8Ov_4IgkY",
     "sourceUrl": "https://www.youtube.com/@kaneezsurka007/videos",
     "checkedAt": "27 Nov 2026",
-    "availabilityNote": "Season 1, Episode 6 is unavailable in the official playlist."
+    "availabilityNote": ""
   },
   {
     "name": "Who Let the Drunks Out",
@@ -2487,6 +2499,36 @@
     "coverVideoId": "tAQCMFjqTm4",
     "sourceUrl": "https://www.youtube.com/@ManharSethOfficial/videos",
     "checkedAt": "27 Nov 2026",
+    "availabilityNote": ""
+  },
+  {
+    "name": "The Escape Room",
+    "host": "Harsh Gujral",
+    "episodes": [
+      {
+        "title": "The Escape Room EP 01 ft. @ashishsolanki_1 @raviguptacomedy @abhishekwalia1912",
+        "videoId": "RieKWodQgVQ",
+        "guest": "Aashish Solanki, Ravi Gupta, Abhishek Walia",
+        "duration": 3899
+      },
+      {
+        "title": "The Escape Room EP 02 ft. @ComedianMaheepSingh @pratyushchaubey6761 @abhishekwalia1912",
+        "videoId": "xfUQL1ByVbI",
+        "guest": "Maheep Singh, Pratyush Chaubey, Abhishek Walia",
+        "duration": 3498
+      },
+      {
+        "title": "The Escape Room EP 03 ft. @kaka._.ji @ComicKaustubhAgarwal @boi_onkar @abhishekwalia1912",
+        "videoId": "B6JyiTbjyzo",
+        "guest": "Kaka, Kaustubh Agarwal, Onkar Yadav, Abhishek Walia",
+        "duration": 6123
+      }
+    ],
+    "category": "Advice & banter",
+    "description": "",
+    "coverVideoId": "RieKWodQgVQ",
+    "sourceUrl": "https://www.youtube.com/@Harshgujral/videos",
+    "checkedAt": "28 Nov 2026",
     "availabilityNote": ""
   }
 ]

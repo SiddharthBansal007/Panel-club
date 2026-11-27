@@ -24,7 +24,7 @@ function episodeInfo(show:string,title:string,index:number){
  let season=seasonMatch?Number(seasonMatch[1]):undefined;
  let episode=episodeMatch?Number(episodeMatch[1]):wordMatch?episodeWords[wordMatch[1].toLowerCase()]:undefined;
  if(show==='Relationshit Advice'&&index<28){if(index<6){season=1;episode=index+1}else if(index<16){season=2;episode=index-5}else if(index<21){season=3;episode=index-15}else{season=4;episode=index-20}}
- if(show==='The General Fun Game Show'){if(index<8){season=1}else if(index<16){season=2}else{season=3}if(!episode&&!/finale/i.test(title))episode=index<8?index+1:index<16?index-7:index-15}
+ if(show==='The General Fun Game Show'){if(index<9){season=1}else if(index<17){season=2}else{season=3}if(!episode&&!/finale/i.test(title))episode=index<9?index+1:index<17?index-8:index-16}
  if(show==='Lie Hard'){season=index<10?1:index<16?2:3;if(!episode)episode=index<10?index+1:index<16?index-9:index-15}
  if(show==='Akal ke Ghode'){season=index<14?1:2;episode=index<14?episode??index+1:index-13}
  if(/premier/i.test(title)&&!episode)episode=1;
