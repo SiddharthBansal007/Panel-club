@@ -6,3 +6,5 @@ out/
 .sites-runtime/
 *.tsbuildinfo
 .npm-cache/
+brag-output/
+brag-output-*/
