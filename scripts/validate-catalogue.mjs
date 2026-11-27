@@ -34,7 +34,8 @@ for(const show of shows){
   if(guest.includes('@'))errors.push(`Channel handle used as a name: ${show.name} — ${episode.title}`);
   for(const host of splitHosts(show.host))if(!names.some(name=>personKey(name)===personKey(host)))errors.push(`Host missing from Guest/Panelist: ${show.name} — ${episode.title}`);
   if(new Set(names.map(personKey)).size!==names.length)errors.push(`Repeated Guest/Panelist name: ${show.name} — ${episode.title}`);
-  if(/\b(bonus|bonus clip|behind the scenes)\b/i.test(episode.title))errors.push(`Bonus/clip entry remains: ${show.name} — ${episode.title}`);
+  // Members-only extras (e.g. Latent bonus episodes) are listed deliberately under their own tab.
+  if(!episode.membersOnly&&/\b(bonus|bonus clip|behind the scenes)\b/i.test(episode.title))errors.push(`Bonus/clip entry remains: ${show.name} — ${episode.title}`);
   episodes.push({...episode,show:show.name,guest});
  }
 }
@@ -58,10 +59,12 @@ console.log(`Catalogue OK: ${shows.length} shows, ${episodes.length} episodes, $
 
 if(online){
  const failures=[];
+ // Members-only videos never play for a signed-out visitor, so only public episodes are checked.
+ const publicEpisodes=episodes.filter(episode=>!episode.membersOnly);
  let cursor=0;
  const workers=Array.from({length:8},async()=>{
-  while(cursor<episodes.length){
-   const episode=episodes[cursor++];
+  while(cursor<publicEpisodes.length){
+   const episode=publicEpisodes[cursor++];
    try{
     const response=await fetch(`https://www.youtube.com/watch?v=${episode.videoId}`,{
      headers:{'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/126 Safari/537.36'},
@@ -88,5 +91,5 @@ if(online){
   for(const failure of failures)console.error(`- ${failure}`);
   process.exit(1);
  }
- console.log(`YouTube OK: all ${episodes.length} videos are playable for a signed-out visitor.`);
+ console.log(`YouTube OK: all ${publicEpisodes.length} public videos are playable for a signed-out visitor.`);
 }
