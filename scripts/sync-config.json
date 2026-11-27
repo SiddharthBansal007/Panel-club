@@ -34,7 +34,7 @@
     },
     "Madhur Model": {},
     "Andha Pyaar": {
-      "include": "andha pyaar",
+      "include": "andha\\s*pya+r",
       "channelId": "UCqzcceB6MQJZ5L1xAu_jHiQ"
     },
     "Asking for a friend": {},
