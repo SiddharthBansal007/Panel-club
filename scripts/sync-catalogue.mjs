@@ -153,6 +153,8 @@ const collectHandles=text=>[...text.matchAll(handlePattern)].map(match=>match[1]
 const handleCache=new Map();
 const channelWords=/\b(comedy|comedian|comic|official|studios?|media|productions?|films?|network|tv|entertainment|podcast|shorts|clips|vlogs?|live|records|music|channel)\b/i;
 // Curated @handle -> person, for handles whose channel name isn't the person (sync-config.json "handles").
+// Name -> the name the catalogue credits instead (sync-config.json "creditAs"), e.g. Jose Covaco is always credited as Hoezaay.
+const creditAliases=new Map(Object.entries(config.creditAs??{}).map(([name,credit])=>[personKey(name),credit]));
 const handleNames=new Map(Object.entries(config.handles??{}).map(([handle,name])=>[handle.replace(/^@/,'').toLowerCase(),name]));
 async function resolveHandle(handle){
  const cacheKey=handle.toLowerCase();
@@ -191,7 +193,8 @@ async function extractGuests({title,description,host}){
  const seen=new Set();
  const hostKeys=new Set(splitHosts(host).map(personKey));
  const add=(name,index)=>{
-  const display=name.replace(/@/g,'').replace(/\s+/g,' ').replace(/^[\s|,&\-–—:]+|[\s|,&\-–—:]+$/g,'').trim();
+  const cleaned=name.replace(/@/g,'').replace(/\s+/g,' ').replace(/^[\s|,&\-–—:]+|[\s|,&\-–—:]+$/g,'').trim();
+  const display=creditAliases.get(personKey(cleaned))??cleaned;
   if(!display||display.includes('@'))return;
   const key=personKey(display);
   if(!key||key.length<4||[...seen,...hostKeys].some(other=>sameName(key,other)))return;

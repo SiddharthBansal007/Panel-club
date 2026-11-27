@@ -5,11 +5,14 @@ const root=new URL('../',import.meta.url);
 const shows=JSON.parse(await readFile(new URL('app/shows.json',root),'utf8'));
 const guestOverrides=JSON.parse(await readFile(new URL('app/guest-overrides.json',root),'utf8'));
 const online=process.argv.includes('--online');
+const syncConfig=JSON.parse(await readFile(new URL('scripts/sync-config.json',root),'utf8'));
 const errors=[];
 const seenShows=new Set();
 const seenVideos=new Map();
 const episodes=[];
 const personKey=name=>name.normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]/gi,'').toLowerCase().replace(/^ashishsolanki$/,'aashishsolanki');
+// Names the catalogue always credits differently (sync-config.json "creditAs"), e.g. Jose Covaco -> Hoezaay.
+const creditAliases=new Map(Object.entries(syncConfig.creditAs??{}).map(([name,credit])=>[personKey(name),credit]));
 const splitHosts=host=>host.split(/\s*(?:&|\band\b)\s*/i).filter(Boolean);
 function guestPanelists(host,guest){
  const names=[...splitHosts(host),...guest.split(/\s*(?:,|&)\s*/)];
@@ -31,6 +34,7 @@ for(const show of shows){
   if(previous)errors.push(`Duplicate YouTube video ${episode.videoId}: ${previous} and ${show.name}`);
   seenVideos.set(episode.videoId,show.name);
   if(!creditedGuest)errors.push(`Missing episode Guest/Panelist credits: ${show.name} — ${episode.title}`);
+  for(const name of names){const credit=creditAliases.get(personKey(name));if(credit)errors.push(`Credit "${name}" as "${credit}": ${show.name} — ${episode.title}`);}
   if(guest.includes('@'))errors.push(`Channel handle used as a name: ${show.name} — ${episode.title}`);
   for(const host of splitHosts(show.host))if(!names.some(name=>personKey(name)===personKey(host)))errors.push(`Host missing from Guest/Panelist: ${show.name} — ${episode.title}`);
   if(new Set(names.map(personKey)).size!==names.length)errors.push(`Repeated Guest/Panelist name: ${show.name} — ${episode.title}`);
