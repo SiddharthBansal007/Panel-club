@@ -104,12 +104,42 @@
         "videoId": "KsEoGDgKdwQ",
         "guest": "Kusha Kapila, Samay Raina, Aaditya Kulshreshth, Shreya Priyam Roy, Gurleen Pannu",
         "duration": 3465
+      },
+      {
+        "title": "BroCode Roast Ft. @raviguptacomedy | S2. Ep1",
+        "videoId": "9dX4h77PQV8",
+        "guest": "Ravi Gupta, Vivek Samtani, Madhur Virli, Saurabh Pandey, Badal Sharma, Shreya Priyam Roy, Chirag Panjwani",
+        "duration": 4580
+      },
+      {
+        "title": "BroCode Roast Ft. @KunalKamra | S2. Ep2",
+        "videoId": "ScXWQe9Xoww",
+        "guest": "Kunal Kamra, Daahab Chishti, Sumaira Shaikh, Azeem Banatwalla, Shashwat Maheshwari, Onkar Yadav, Siddharth Dudeja, Vipasha Malhotra",
+        "duration": 4276
+      },
+      {
+        "title": "BroCode Roast Ft. @TandonAmit | S2. Ep3",
+        "videoId": "PAq-1lCD_hA",
+        "guest": "Amit Tandon, Kaustubh Agarwal, Gautham Govindan, Urjita Wani, Abijit Ganguly, Aakash Mehta",
+        "duration": 4803
+      },
+      {
+        "title": "BroCode Roast Ft. @GauravKapoor | S2. Ep4",
+        "videoId": "HdixTuRXfwA",
+        "guest": "Gaurav Kapoor, Inder Sahani, Shashi Dhiman, Sumit Sourav, Karan Singh, Md Anas, Shreya Sharma",
+        "duration": 4093
+      },
+      {
+        "title": "BroCode Roast Battle | S2. Ep5",
+        "videoId": "PGeuOtwDquE",
+        "guest": "",
+        "duration": 5268
       }
     ],
     "category": "Roasts",
     "description": "",
     "coverVideoId": "U-SuiWkRAlo",
-    "sourceUrl": "https://www.youtube.com/playlist?list=PLFcSwHXxax7zjumzGWwvSUoMv6H8FNZtO",
+    "sourceUrl": "https://www.youtube.com/playlist?list=PLFcSwHXxax7w8MCFdrS3MsTbhb6xvd9aH",
     "checkedAt": "27 Nov 2026",
     "availabilityNote": "Season 1, Episode 5 is unavailable on the official channel."
   },
@@ -1004,48 +1034,6 @@
     "description": "",
     "coverVideoId": "SecoaC9RNOk",
     "sourceUrl": "https://www.youtube.com/@swatisachdeva95/videos",
-    "checkedAt": "27 Nov 2026",
-    "availabilityNote": ""
-  },
-  {
-    "name": "BroCode Roast",
-    "host": "Aashish Solanki",
-    "episodes": [
-      {
-        "title": "BroCode Roast Ft. @raviguptacomedy | S2. Ep1",
-        "videoId": "9dX4h77PQV8",
-        "guest": "Ravi Gupta, Vivek Samtani, Madhur Virli, Saurabh Pandey, Badal Sharma, Shreya Priyam Roy, Chirag Panjwani",
-        "duration": 4580
-      },
-      {
-        "title": "BroCode Roast Ft. @KunalKamra | S2. Ep2",
-        "videoId": "ScXWQe9Xoww",
-        "guest": "Kunal Kamra, Daahab Chishti, Sumaira Shaikh, Azeem Banatwalla, Shashwat Maheshwari, Onkar Yadav, Siddharth Dudeja, Vipasha Malhotra",
-        "duration": 4276
-      },
-      {
-        "title": "BroCode Roast Ft. @TandonAmit | S2. Ep3",
-        "videoId": "PAq-1lCD_hA",
-        "guest": "Amit Tandon, Kaustubh Agarwal, Gautham Govindan, Urjita Wani, Abijit Ganguly, Aakash Mehta",
-        "duration": 4803
-      },
-      {
-        "title": "BroCode Roast Ft. @GauravKapoor | S2. Ep4",
-        "videoId": "HdixTuRXfwA",
-        "guest": "Gaurav Kapoor, Inder Sahani, Shashi Dhiman, Sumit Sourav, Karan Singh, Md Anas, Shreya Sharma",
-        "duration": 4093
-      },
-      {
-        "title": "BroCode Roast Battle | S2. Ep5",
-        "videoId": "PGeuOtwDquE",
-        "guest": "",
-        "duration": 5268
-      }
-    ],
-    "category": "Roasts",
-    "description": "",
-    "coverVideoId": "9dX4h77PQV8",
-    "sourceUrl": "https://www.youtube.com/playlist?list=PLFcSwHXxax7w8MCFdrS3MsTbhb6xvd9aH",
     "checkedAt": "27 Nov 2026",
     "availabilityNote": ""
   },
