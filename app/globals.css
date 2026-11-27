@@ -70,3 +70,6 @@
  .spotlight-controls>button{width:36px;height:36px;flex-basis:36px}
  .dialog-inner{padding-left:14px;padding-right:14px}
 }
+.season-filters{margin:-6px 0 20px}
+.season-count{opacity:.65;font-weight:400;margin-left:4px}
+.season-filters .active .season-count{opacity:.8}

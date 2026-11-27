@@ -30,7 +30,9 @@
       "include": "lie hard",
       "channelId": "UCeP5_FL11TnvXuvrFvALJyA"
     },
-    "The Nation Wants to Guess": {},
+    "The Nation Wants to Guess": {
+      "include": "nation wants to guess"
+    },
     "Madhur Model": {},
     "Andha Pyaar": {
       "include": "andha pyaar",

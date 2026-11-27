@@ -297,7 +297,7 @@ for(const show of shows){
  const seenFeed=new Set();
  const candidates=[];
  for(const entry of entries){
-  if(feed.kind==='channel'&&!include.test(entry.title))continue;
+  if(include&&!include.test(entry.title))continue;
   if(excludePattern?.test(entry.title))continue;
   if(knownVideos.has(entry.videoId)||seenFeed.has(entry.videoId))continue;
   seenFeed.add(entry.videoId);
